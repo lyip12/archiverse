@@ -194,8 +194,8 @@ section {
 
 #bkimg1 {
     width: 100vw;
-    height: 100vw;
-    margin-bottom: -100vw;
+    height: 200vw;
+    margin-bottom: -200vw;
     background-image: url("../assets/b1.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -222,7 +222,7 @@ section {
     bottom: 0;
     z-index: -1;
     background: var(--accent);
-    filter: brightness(0.8);
+    filter: brightness(0.5);
     opacity: 0.9;
 }
 
