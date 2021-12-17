@@ -1,8 +1,6 @@
 var page_height = window.innerHeight;
 var center_piece_offset = page_height * 0.5;
 
-console.log(page_height)
-
 var onScrollHandler = function () {
 
     let img_id = ((document.documentElement.scrollTop - center_piece_offset) / 5 + 1).toFixed(0);
@@ -36,8 +34,13 @@ var onScrollHandler = function () {
 window.addEventListener("scroll", onScrollHandler);
 
 function randomizecolor() {
-    let random_num = Math.floor(Math.random() * 4);
-    document.documentElement.setAttribute("data-theme", random_num + 1);
+
+    let random_num = document.documentElement.dataset.theme || 1;
+    while (random_num == document.documentElement.dataset.theme) {
+        random_num = Math.floor(Math.random() * 4) + 1;
+    };
+    
+    document.documentElement.setAttribute("data-theme", random_num);
 }
 
 var rellax = new Rellax('.rellax');
