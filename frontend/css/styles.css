@@ -169,7 +169,7 @@ nav > span {
 .button {
     padding: 13px 26px;
     border: none;
-    background: -webkit-linear-gradient(323deg, var(--primary) 0%, var(--secondary) 100%);
+    background: -webkit-linear-gradient(323deg, var(--accent) 0%, var(--secondary) 100%);
     font-size: 16px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
