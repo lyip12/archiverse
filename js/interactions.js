@@ -1,5 +1,7 @@
 var page_height = window.innerHeight;
 var center_piece_offset = page_height * 0.2;
+var stoppingpoint = document.getElementById("samples").offsetTop + page_height/2;
+console.log(stoppingpoint);
 
 var onScrollHandler = function () {
 
@@ -18,7 +20,7 @@ var onScrollHandler = function () {
         document.getElementById("center_piece").setAttribute("src", img_id);
     };
 
-    let img_opacity = 1 - (document.documentElement.scrollTop - page_height * 4) / 50;
+    let img_opacity = -(1 - (Math.abs(document.documentElement.scrollTop - stoppingpoint) - page_height/2) / 50);
     if (img_opacity > 1) {
         document.getElementById("center_piece_container").style.opacity = 1;
         document.getElementById("center_piece_container").style.display = "flex";
