@@ -32,7 +32,7 @@ html[data-theme="4"] {
 html,
 h2,
 p {
-    font-family: 'Noto Sans Display', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 body {
@@ -57,6 +57,9 @@ b {
     color: #fff;
 }
 
+
+/* -------------------- background -------------------- */
+
 .background {
     position: fixed;
     margin: 0;
@@ -65,7 +68,9 @@ b {
     right: 0;
     top: 0;
     bottom: 0;
-    background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);
+    background: var(--primary);
+    filter: brightness(0.2);
+/*    background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);*/
     z-index: -1;
 }
 
@@ -98,7 +103,7 @@ nav > span {
 
 .nav_hr {
     width: 100%;
-    margin: 0 15px;
+    margin: 0 10px 0 15px;
     height: 1px;
     border-top: dotted 1px #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -112,19 +117,20 @@ nav > span {
 }
 
 .logo_text {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Staatliches', cursive;
     font-size: 20px;
     letter-spacing: 0.1em;
     white-space: nowrap;
 }
 
-#opensea_logo {
-    height: 30px;
+.nav_icon {
+    height: 25px;
     -webkit-filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.1));
     filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.1));
+    margin-left: 5px;
 }
 
-#opensea_logo:hover {
+.nav_icon:hover {
     filter: saturate(2) brightness(0.9);
     cursor: pointer;
 }
@@ -137,15 +143,11 @@ nav > span {
     cursor: pointer;
 }
 
-#opensea_button {
-    z-index: 99999;
-}
-
 .randomize_color {
     position: fixed;
     padding: 6px 9px;
     background: #fff;
-    top: 59px;
+    top: 61px;
     right: 0px;
     border-radius: 5px 0 0 5px;
     text-decoration: none;
@@ -159,7 +161,8 @@ nav > span {
 }
 
 .randomize_color > i {
-    color: var(--primary);
+    color: var(--accent);
+    margin-top: 1px;
 }
 
 .randomize_color > span {
@@ -181,6 +184,62 @@ nav > span {
 
 .randomize_color:hover > i {
     color: #fff;
+}
+
+
+/* -------------------- intro text -------------------- */
+
+.archiverse_text {
+    width: 60vw;
+    margin-left: -1.5vw;
+}
+
+.text {
+    fill: none;
+    font-family: 'Staatliches', cursive;
+    font-size: 52px;
+    stroke-width: 2px;
+    stroke-linejoin: round;
+    stroke-dasharray: 10 50;
+    stroke-dashoffset: 0;
+    -webkit-animation: stroke 20s infinite linear;
+    animation: stroke 20s infinite linear;
+}
+
+.text:nth-child(4n + 1) {
+    stroke: white;
+    -webkit-animation-delay: -4s;
+    animation-delay: -4s;
+}
+
+.text:nth-child(4n + 2) {
+    stroke: var(--primary);
+    -webkit-animation-delay: -8s;
+    animation-delay: -8s;
+}
+
+.text:nth-child(4n + 3) {
+    stroke: var(--secondary);
+    -webkit-animation-delay: -12s;
+    animation-delay: -12s;
+}
+
+.text:nth-child(4n + 4) {
+    stroke: var(--accent);
+    -webkit-animation-delay: -16s;
+    animation-delay: -16s;
+}
+
+@-webkit-keyframes stroke {
+    100% {
+        stroke-dashoffset: -50;
+    }
+}
+
+@keyframes stroke {
+    100% {
+        stroke-dashoffset: -50;
+    }
 }
 
 /* -------------------- util -------------------- */
@@ -275,19 +334,18 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 .welcome {
-    font-family: 'Bebas Neue', san-serif;
     letter-spacing: 0.1em;
-    font-size: 48px;
-    line-height: 80px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 2em;
+    color: var(--primary);
 }
 
 .heading {
-    font-family: 'Bebas Neue', san-serif;
+    font-family: 'Staatliches', cursive;
     letter-spacing: 0.1em;
     font-size: 15vw;
     line-height: 15vw;
@@ -585,64 +643,3 @@ section {
 }
 
 
-/* Main styles */
-.text {
-    fill: none;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 52px;
-    stroke-width: 1px;
-    stroke-dasharray: 50 250;
-    stroke-dashoffset: 0;
-    -webkit-animation: stroke 10s infinite linear;
-    animation: stroke 10s infinite linear;
-}
-
-.text_background {
-    fill: white;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 52px;
-}
-
-.text:nth-child(4n + 1) {
-    stroke: white;
-    -webkit-animation-delay: -4s;
-    animation-delay: -4s;
-}
-
-.text:nth-child(4n + 2) {
-    stroke: var(--primary);
-    -webkit-animation-delay: -8s;
-    animation-delay: -8s;
-}
-
-.text:nth-child(4n + 3) {
-    stroke: var(--secondary);
-    -webkit-animation-delay: -12s;
-    animation-delay: -12s;
-}
-
-.text:nth-child(4n + 4) {
-    stroke: var(--accent);
-    -webkit-animation-delay: -16s;
-    animation-delay: -16s;
-}
-
-@-webkit-keyframes stroke {
-    100% {
-        stroke-dashoffset: -50;
-    }
-}
-
-@keyframes stroke {
-    100% {
-        stroke-dashoffset: -50;
-    }
-}
-
-/* Other styles */
-
-svg {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
