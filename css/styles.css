@@ -186,62 +186,6 @@ nav > span {
     color: #fff;
 }
 
-
-/* -------------------- intro text -------------------- */
-
-.archiverse_text {
-    width: 60vw;
-    margin-left: -1.5vw;
-}
-
-.text {
-    fill: none;
-    font-family: 'Staatliches', cursive;
-    font-size: 52px;
-    stroke-width: 2px;
-    stroke-linejoin: round;
-    stroke-dasharray: 10 50;
-    stroke-dashoffset: 0;
-    -webkit-animation: stroke 20s infinite linear;
-    animation: stroke 20s infinite linear;
-}
-
-.text:nth-child(4n + 1) {
-    stroke: white;
-    -webkit-animation-delay: -4s;
-    animation-delay: -4s;
-}
-
-.text:nth-child(4n + 2) {
-    stroke: var(--primary);
-    -webkit-animation-delay: -8s;
-    animation-delay: -8s;
-}
-
-.text:nth-child(4n + 3) {
-    stroke: var(--secondary);
-    -webkit-animation-delay: -12s;
-    animation-delay: -12s;
-}
-
-.text:nth-child(4n + 4) {
-    stroke: var(--accent);
-    -webkit-animation-delay: -16s;
-    animation-delay: -16s;
-}
-
-@-webkit-keyframes stroke {
-    100% {
-        stroke-dashoffset: -50;
-    }
-}
-
-@keyframes stroke {
-    100% {
-        stroke-dashoffset: -50;
-    }
-}
-
 /* -------------------- util -------------------- */
 
 .button {
@@ -330,7 +274,6 @@ section {
 #intro {
     width: 100vw;
     height: 100vh;
-    padding-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -338,7 +281,7 @@ section {
 
 .welcome {
     letter-spacing: 0.1em;
-    font-size: 28px;
+    font-size: 42px;
     font-weight: 400;
     line-height: 2em;
     color: var(--primary);
@@ -355,6 +298,69 @@ section {
 
 .gradient_shadow {
     text-shadow: 20px 10px 0px #fff;
+}
+
+#intro > p {
+    color: var(--secondary);
+    font-size: 18px;
+    margin-top: 25px;
+    width: 500px;
+}
+
+/* -------------------- intro text -------------------- */
+
+.archiverse_text {
+    width: 70vw;
+    margin-left: -0.5vw;
+}
+
+.text {
+    fill: none;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 0.1em;
+    font-size: 52px;
+    stroke-width: 2px;
+    stroke-linejoin: round;
+    stroke-dasharray: 10 50;
+    stroke-dashoffset: 0;
+    -webkit-animation: stroke 20s infinite linear;
+    animation: stroke 20s infinite linear;
+}
+
+.text:nth-child(4n + 1) {
+    stroke: white;
+    -webkit-animation-delay: -4s;
+    animation-delay: -4s;
+}
+
+.text:nth-child(4n + 2) {
+    stroke: var(--primary);
+    -webkit-animation-delay: -8s;
+    animation-delay: -8s;
+}
+
+.text:nth-child(4n + 3) {
+    stroke: var(--secondary);
+    -webkit-animation-delay: -12s;
+    animation-delay: -12s;
+}
+
+.text:nth-child(4n + 4) {
+    stroke: var(--accent);
+    -webkit-animation-delay: -16s;
+    animation-delay: -16s;
+}
+
+@-webkit-keyframes stroke {
+    100% {
+        stroke-dashoffset: -50;
+    }
+}
+
+@keyframes stroke {
+    100% {
+        stroke-dashoffset: -50;
+    }
 }
 
 /* -------------------- about -------------------- */
