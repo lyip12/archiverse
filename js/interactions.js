@@ -35,7 +35,7 @@
 //
 //window.addEventListener("scroll", onScrollHandler);
 
-//var rellax = new Rellax('.rellax');
+var rellax = new Rellax('.rellax');
 
 function randomizecolor() {
 
