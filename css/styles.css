@@ -70,7 +70,7 @@ b {
     bottom: 0;
     background: var(--primary);
     filter: brightness(0.2);
-/*    background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);*/
+    /*    background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);*/
     z-index: -1;
 }
 
@@ -79,6 +79,19 @@ b {
     background: -webkit-linear-gradient(323deg, var(--accent) 0%, var(--primary) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.globe_bkgd {
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: -100vh;
+    background-image: url(../assets/matrx.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+/*    filter: brightness(2);*/
+    opacity: 0.2;
+    z-index: -1;
 }
 
 /* -------------------- navbar -------------------- */
@@ -222,6 +235,7 @@ section {
     background-size: contain;
     background-position: right;
     opacity: 0.2;
+    z-index: -1;
 }
 
 #bkimg1 {
@@ -232,18 +246,20 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    opacity: 0.5;
+    opacity: 0.1;
+    z-index: -1;
 }
 
 #bkimg2 {
     width: 100vw;
-    height: 100vw;
-    margin-bottom: -100vw;
+    height: 80vw;
+    margin-bottom: -80vw;
     background-image: url("../assets/b2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.05;
+    opacity: 0.1;
+    z-index: -1;
 }
 
 /* -------------------- center piece -------------------- */
@@ -381,10 +397,10 @@ section {
 }
 
 .example {
-    width: 55%;
+    width: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     z-index: 99;
-    filter: brightness(2) saturate(0.5) opacity(0.1);
+        filter: brightness(2) saturate(0.5) opacity(0.1);
 }
 
 
@@ -394,7 +410,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: auto;
+    justify-content: center;
 }
 
 #tooltip {
@@ -415,6 +431,13 @@ section {
     margin: 0;
 }
 
+#globe{
+    z-index: 99;
+}
+
+#tooltip {
+    z-index: 999;
+}
 /* -------------------- samples -------------------- */
 
 #samples {
@@ -647,5 +670,3 @@ section {
     color: var(--primary);
     margin-top: 50px;
 }
-
-
