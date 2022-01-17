@@ -6,9 +6,9 @@
 }
 
 html[data-theme="1"] {
-    --primary: #4E4694;
-    --secondary: #B5E69C;
-    --accent: #4EB7D6;
+    --primary: black;
+    --secondary: white;
+    --accent: gray;
 }
 
 html[data-theme="2"] {
@@ -27,6 +27,12 @@ html[data-theme="4"] {
     --primary: #914E91;
     --secondary: #ff99ff;
     --accent: #F01C2E;
+}
+
+html[data-theme="5"] {
+    --primary: #4E4694;
+    --secondary: #B5E69C;
+    --accent: #4EB7D6;
 }
 
 html,
@@ -266,10 +272,10 @@ section {
 
 #center_piece_container {
     position: fixed;
-    top: calc(var(--pageborder) * 2);
-    bottom: calc(var(--pageborder) * 2);
-    right: calc(var(--pageborder) * 3.5);
-    left: calc(var(--pageborder) * 3.5);
+    top: 10vh;
+    bottom: 10vh;
+    right: 25vw;
+    left: 25vw;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -445,13 +451,13 @@ section {
     height: auto !important;
     padding: var(--pageborder);
     padding-bottom: 50px;
-    background: rgba(255, 255, 255, 0.9);
+    background: var(--primary);
     z-index: 999;
 }
 
 #samples > h2 {
     margin-top: 50px;
-    color: var(--primary) !important;
+    color: white;
 }
 
 #samples > p {
@@ -459,7 +465,7 @@ section {
 }
 
 .spacer {
-    margin-top: calc(10vw + 600px);
+    margin-top: calc(10vw + 500px);
 }
 
 .gallery-cell {

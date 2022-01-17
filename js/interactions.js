@@ -28,14 +28,17 @@ var onScrollHandler = function () {
 
     };
 
-    let img_opacity = -(1 - (Math.abs(document.documentElement.scrollTop - stoppingpoint) - page_height) / 50);
+    let img_opacity = -(1 - (-(document.documentElement.scrollTop - stoppingpoint) - page_height) / 50);
     if (img_opacity > 1) {
+//        document.getElementById("center_piece_container").style.width = "50vw";
         document.getElementById("center_piece_container").style.opacity = 1;
         document.getElementById("center_piece_container").style.display = "flex";
     } else if (img_opacity < 0) {
+//        document.getElementById("center_piece_container").style.width = 0;
         document.getElementById("center_piece_container").style.opacity = 0;
         document.getElementById("center_piece_container").style.display = "none";
     } else {
+//        document.getElementById("center_piece_container").style.width = (50 * img_opacity) + "vw";
         document.getElementById("center_piece_container").style.opacity = img_opacity;
         document.getElementById("center_piece_container").style.display = "flex";
     };
