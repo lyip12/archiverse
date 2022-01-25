@@ -3,7 +3,19 @@ var stoppingpoint = document.getElementById("samples").offsetTop + page_height /
 
 var onScrollHandler = function () {
 
+    if (document.documentElement.scrollTop < 1290 && document.getElementById("center_piece_container").style.right != "10vw") {
+        document.getElementById("center_piece_container").style.right = "10vw";
+        document.getElementById("center_piece_container").style.left = "70vw";
+    }
+
+    if (document.documentElement.scrollTop >= 1290 && document.getElementById("center_piece_container").style.right == "10vw") {
+        document.getElementById("center_piece_container").style.right = "25vw";
+        document.getElementById("center_piece_container").style.left = "25vw";
+    }
+
     let img_id = (document.documentElement.scrollTop / 10).toFixed(0);
+
+//    console.log(img_id);
 
     if (img_id < 1) {
         document.getElementById("center_piece").setAttribute("src", "assets/seq/cut/Frame_00000 copy.png");
@@ -27,7 +39,6 @@ var onScrollHandler = function () {
     };
 
     let img_opacity = -(1 - (-(document.documentElement.scrollTop - stoppingpoint) - page_height) / 50);
-    console.log(img_opacity);
 
     if (img_opacity > 1) {
         //        document.getElementById("center_piece_container").style.width = "50vw";

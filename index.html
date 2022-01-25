@@ -44,16 +44,8 @@
 
     <div id="center_piece_container">
         <img id="center_piece" src="assets/seq/cut/Frame_00000 copy.png">
-        <!--    <button id="opensea_button" class="button"><span>To OpenSea</span></button>-->
+        <button id="mint_button" class="button"><span>Mint</span></button>
     </div>
-
-    <!---------------------------------- background color blocks ---------------------------------->
-
-    <div class="background"></div>
-    <!--    <div class="bkgd rellax" data-rellax-speed="50"></div>-->
-    <!--    <div class="background_right"></div>-->
-    <div id="bkimg1" class="rellax" data-rellax-speed="-30"></div>
-    <!--    <div id="bkimg2" class="rellax" data-rellax-speed="-30"></div>-->
 
     <!---------------------------------- navbar ---------------------------------->
     <nav>
@@ -78,22 +70,29 @@
 
     <!---------------------------------- hero/intro ---------------------------------->
 
-    <section id="intro">
-        <div class="welcome">
-            welcome to the
+    <div class="background"></div>
+    <div id="bkimg1" class="rellax" data-rellax-speed="-30"></div>
+
+    <div id="intro" class="wrap">
+        <div class="inner">
+            <div>
+                <div class="welcome">
+                    welcome to the
+                </div>
+                <svg class="archiverse_text" viewBox="0 0 300 40">
+                    <symbol id="s-text">
+                        <text text-anchor="middle" x="50%" y="95%">Archi-verse</text>
+                    </symbol>
+                    <use class="text_background" xlink:href="#text_background"></use>
+                    <use class="text" xlink:href="#s-text"></use>
+                    <use class="text" xlink:href="#s-text"></use>
+                    <use class="text" xlink:href="#s-text"></use>
+                    <use class="text" xlink:href="#s-text"></use>
+                </svg>
+                <p>Archiverse (ARKVRS) is the very first and largest #NFT collection of architectural pop-art pieces, launching in 2022.</p>
+            </div>
         </div>
-        <svg class="archiverse_text" viewBox="0 0 300 40">
-            <symbol id="s-text">
-                <text text-anchor="middle" x="50%" y="95%">Archi-verse</text>
-            </symbol>
-            <use class="text_background" xlink:href="#text_background"></use>
-            <use class="text" xlink:href="#s-text"></use>
-            <use class="text" xlink:href="#s-text"></use>
-            <use class="text" xlink:href="#s-text"></use>
-            <use class="text" xlink:href="#s-text"></use>
-        </svg>
-        <p>Archiverse (ARKVRS) is the very first and largest #NFT collection of architectural pop-art pieces, launching in 2022.</p>
-    </section>
+    </div>
 
     <hr>
 
@@ -218,7 +217,9 @@
     <hr>
 
     <!---------------------------------- globe ---------------------------------->
-    <div class="globe_bkgd"></div>
+    <section class="globe_bkgd">
+    </section>
+
     <section id="visualization">
         <hr>
         <div id="tooltip">
@@ -331,4 +332,6 @@
     <script src="js/interactions.js"></script>
 
 
-</body></html>
+</body>
+
+</html>
