@@ -1,11 +1,21 @@
 var page_height = window.innerHeight;
-var center_piece_offset = page_height * 0.2;
 var stoppingpoint = document.getElementById("samples").offsetTop + page_height / 2;
-console.log(stoppingpoint);
 
 var onScrollHandler = function () {
 
-    let img_id = ((document.documentElement.scrollTop - center_piece_offset) / 5).toFixed(0);
+    if (document.documentElement.scrollTop < 1290 && document.getElementById("center_piece_container").style.right != "10vw") {
+        document.getElementById("center_piece_container").style.right = "10vw";
+        document.getElementById("center_piece_container").style.left = "70vw";
+    }
+
+    if (document.documentElement.scrollTop >= 1290 && document.getElementById("center_piece_container").style.right == "10vw") {
+        document.getElementById("center_piece_container").style.right = "25vw";
+        document.getElementById("center_piece_container").style.left = "25vw";
+    }
+
+    let img_id = (document.documentElement.scrollTop / 10).toFixed(0);
+
+//    console.log(img_id);
 
     if (img_id < 1) {
         document.getElementById("center_piece").setAttribute("src", "assets/seq/cut/Frame_00000 copy.png");
@@ -29,21 +39,48 @@ var onScrollHandler = function () {
     };
 
     let img_opacity = -(1 - (-(document.documentElement.scrollTop - stoppingpoint) - page_height) / 50);
+
     if (img_opacity > 1) {
-//        document.getElementById("center_piece_container").style.width = "50vw";
+        //        document.getElementById("center_piece_container").style.width = "50vw";
         document.getElementById("center_piece_container").style.opacity = 1;
         document.getElementById("center_piece_container").style.display = "flex";
     } else if (img_opacity < 0) {
-//        document.getElementById("center_piece_container").style.width = 0;
+        //        document.getElementById("center_piece_container").style.width = 0;
         document.getElementById("center_piece_container").style.opacity = 0;
         document.getElementById("center_piece_container").style.display = "none";
     } else {
-//        document.getElementById("center_piece_container").style.width = (50 * img_opacity) + "vw";
+        //        document.getElementById("center_piece_container").style.width = (50 * img_opacity) + "vw";
         document.getElementById("center_piece_container").style.opacity = img_opacity;
         document.getElementById("center_piece_container").style.display = "flex";
     };
 
 };
+
+
+function preload() {
+    for (i = 0; i < 99; i++) {
+        let pre = document.createElement("link");
+        pre.setAttribute("rel", "prefetch");
+        if (i < 1) {
+            pre.setAttribute("href", "assets/seq/cut/Frame_00000 copy.png");
+            document.head.appendChild(pre);
+            pre.setAttribute("href", "assets/seq/nocut/Frame_00000 copy.png");
+            document.head.appendChild(pre);
+        } else if (i < 10) {
+            pre.setAttribute("href", "assets/seq/cut/Frame_0000" + i + " copy.png");
+            document.head.appendChild(pre);
+            pre.setAttribute("href", "assets/seq/nocut/Frame_0000" + i + " copy.png");
+            document.head.appendChild(pre);
+        } else {
+            pre.setAttribute("href", "assets/seq/cut/Frame_0000" + i + " copy.png");
+            document.head.appendChild(pre);
+            pre.setAttribute("href", "assets/seq/nocut/Frame_000" + i + " copy.png");
+            document.head.appendChild(pre);
+        }
+    }
+}
+
+preload();
 
 window.addEventListener("scroll", onScrollHandler);
 
