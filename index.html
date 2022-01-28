@@ -28,13 +28,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Staatliches&display=swap" rel="stylesheet">
     <!--bootstrap css-->
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">-->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css" rel="stylesheet">
 
     <!-- D3 -->
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://d3js.org/d3-geo.v1.min.js"></script>
     <script src="https://d3js.org/topojson.v2.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
 
 </head>
 
@@ -51,17 +49,14 @@
     <nav>
         <span class="nav_left">
             <img id="logo" src="assets/logo.png">
-            <h2 class="logo_text">Archi-verse</h2>
+            <h2 class="logo_text">ARKVRS</h2>
         </span>
         <div class="nav_hr"></div>
         <span class="nav_right">
-            <a href="https://opensea.io/" target="_blank"><img class="nav_icon" src="assets/icons/twitter.svg"></a>
-            <a href="https://opensea.io/" target="_blank"><img class="nav_icon" src="assets/icons/discord.svg"></a>
-            <a href="https://opensea.io/" target="_blank"><img class="nav_icon" src="assets/icons/facebook.svg"></a>
-            <a href="https://opensea.io/" target="_blank"><img class="nav_icon" src="assets/icons/instagram.svg"></a>
-            <a href="https://opensea.io/" target="_blank"><img class="nav_icon" src="assets/icons/mirror.svg"></a>
-            <a href="https://opensea.io/" target="_blank"><img class="nav_icon" src="assets/icons/telegram.svg"></a>
-            <a href="https://opensea.io/" target="_blank"><img class="nav_icon" src="assets/icons/github.svg"></a>
+            <a href="https://twitter.com/arkvrs/" target="_blank"><img class="nav_icon" src="assets/icons/twitter.svg"></a>
+            <a href="https://medium.com/@arkvrs/" target="_blank"><img class="nav_icon" src="assets/icons/medium.svg"></a>
+            <a href="https://www.facebook.com/arkvrs/" target="_blank"><img class="nav_icon" src="assets/icons/facebook.svg"></a>
+            <a href="https://www.instagram.com/arkvrs/" target="_blank"><img class="nav_icon" src="assets/icons/instagram.svg"></a>
         </span>
     </nav>
 
@@ -76,12 +71,10 @@
     <div id="intro" class="wrap">
         <div class="inner">
             <div>
-                <div class="welcome">
-                    welcome to the
-                </div>
-                <svg class="archiverse_text" viewBox="0 0 300 40">
+                <svg class="archiverse_text" viewBox="0 0 210 100">
                     <symbol id="s-text">
-                        <text text-anchor="middle" x="50%" y="95%">Archi-verse</text>
+                        <text text-anchor="left" x="1%" y="50%">Welcome</text>
+                        <text text-anchor="left" x="1%" y="95%">to the</text>
                     </symbol>
                     <use class="text_background" xlink:href="#text_background"></use>
                     <use class="text" xlink:href="#s-text"></use>
@@ -89,7 +82,7 @@
                     <use class="text" xlink:href="#s-text"></use>
                     <use class="text" xlink:href="#s-text"></use>
                 </svg>
-                <p>Archiverse (ARKVRS) is the very first and largest #NFT collection of architectural pop-art pieces, launching in 2022.</p>
+                <h1>ARCHI-VERSE</h1>
             </div>
         </div>
     </div>
@@ -103,12 +96,12 @@
             <div>
                 <h2>The First and Largest NFT Collection of Digital Architecture</h2>
             </div>
+            <img class="cube" src="assets/cube.svg">
             <div class="about-text">
                 <h4>Become an early adopter of world-renowned architecture in 3D mode</h4>
                 <p>We designed 4,000 unique high quality artworks based on the most acclaimed architectural creations in the world. You can mint those artwork as <b>non-fungible tokens</b> and store them on the Ethereum blockchain. </p>
             </div>
         </div>
-        <hr>
         <div class="columns">
             <div>
                 <h2>Join Our Club</h2>
@@ -120,10 +113,10 @@
                     <li>Turn world-renowed architectures into your digital asset</li>
                     <li>Win your <b>free</b> 3D assets</li>
                     <li>Secure your spot in future airdrops</li>
-                    <li>Display your owned architecture with AR/VR</li>
-                    <li>Build your own house with member discount</li>
+                    <li>Display your architecture with AR/VR</li>
+                    <li>Build your own house with discount</li>
                 </ol>
-                <p>Check our product roadmap and stay tuned for more benefits in the future!</p>
+                <p style="font-size: 14px;">Check our product roadmap for more benefits in the future!</p>
 
             </div>
         </div>
@@ -135,81 +128,73 @@
 
 
     <section id="samples">
-        <div style="width: 30%; padding-right: var(--pageborder)">
+        <div style="width: 50%; padding-right: var(--pageborder)">
             <h2>Inspired by Masterpieces</h2>
             <p>We selected masterpieces designed by globally recognized architects - Antoni Gaudi, Le Corbusier, Frank Lloyd Wright and more. They include but are not limited to La Sagrada Familia, Chapelle Notre-Dame du Haut, Guggenheim Museum, and more. Each of them has a natural collection value which will increase over time.</p>
         </div>
         <div class="carousel">
-            <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
-                <div class="gallery-cell">
-                    <p>Name: La Sagrada Familia<br>
-                        Location: Barcelona, Spain<br>
-                        Architect: Antoni Gaudí
-                    </p>
-                    <img src="assets/previews/Frame_00004.png">
-                </div>
-                <div class="gallery-cell">
-                    <p>Name: La Sagrada Familia<br>
-                        Location: Barcelona, Spain<br>
-                        Architect: Antoni Gaudí
-                    </p>
-                    <img src="assets/previews/Frame_00016.png">
-                </div>
-                <div class="gallery-cell">
-                    <p>Name: La Sagrada Familia<br>
-                        Location: Barcelona, Spain<br>
-                        Architect: Antoni Gaudí
-                    </p>
-                    <img src="assets/previews/Frame_00199.png">
-                </div>
-                <div class="gallery-cell">
-                    <p>Name: La Sagrada Familia<br>
-                        Location: Barcelona, Spain<br>
-                        Architect: Antoni Gaudí
-                    </p>
-                    <img src="assets/previews/Frame_00108.png">
 
+            <div class="hub-slider">
+                <div class="hub-slider-slides">
+                    <ul>
+                        <li><img src="assets/previews/108_La_Sagrada_Familia_13_SE.png">
+                            <p><b>Name:</b> La Sagrada Familia<br>
+                                <b>Location: </b>Barcelona, Spain<br>
+                                <b>Architect:</b> Antoni Gaudí
+                            </p>
+                        </li>
+                        <li><img src="assets/previews/001_Villa_Savoye_03_NE.png">
+                            <p><b>Name:</b> Villa Savoye<br>
+                                <b>Location: </b>Paris, France<br>
+                                <b>Architect:</b> Le Corbusier
+                            </p>
+                        </li>
+                        <li><img src="assets/previews/016_Solomon_R.Guggenheim_Museum_08_NW.png">
+                            <p><b>Name:</b> The Guggenheim<br>
+                                <b>Location: </b>New York City, United States<br>
+                                <b>Architect:</b> Frank Lloyd Wright
+                            </p>
+                        </li>
+                        <li><img src="assets/previews/027_Sydney_Opera_House_12_SW.png">
+                            <p><b>Name:</b> Sydney Opera House<br>
+                                <b>Location: </b>Sydney, Australia<br>
+                                <b>Architect:</b> Jørn Utzon
+                            </p>
+                        </li>
+                        <li><img src="assets/previews/102_Taj_Mahal_02_SW.png">
+                            <p><b>Name:</b> Taj Mahal<br>
+                                <b>Location: </b>Agra, India<br>
+                                <b>Architect:</b> Ustad Ahmad Lahauri
+                            </p>
+                        </li>
+                        <li><img src="assets/previews/162_Eiffel_Tower_07_SE.png">
+                            <p><b>Name:</b> Eiffel Tower<br>
+                                <b>Location: </b>Paris, France<br>
+                                <b>Architect:</b> Stephen Sauvestre
+                            </p>
+                        </li>
+                        <li><img src="assets/previews/171_Notre_Dame_de_Paris_04_NW.png">
+                            <p><b>Name:</b> Notre-Dame de Paris<br>
+                                <b>Location: </b>Paris, France<br>
+                                <b>Architect:</b> Maurice de Sully
+                            </p>
+                        </li>
+                        <li><img src="assets/previews/241_The%20Centre%20Pompidou_10_NW.png">
+                            <p><b>Name:</b> Pompidou Centre<br>
+                                <b>Location: </b>Paris, France<br>
+                                <b>Architect:</b> Renzo Piano, Richard Rogers and Gianfranco Franchini
+                            </p>
+                        </li>
+                    </ul>
                 </div>
-                <div class="gallery-cell">
-                    <p>Name: La Sagrada Familia<br>
-                        Location: Barcelona, Spain<br>
-                        Architect: Antoni Gaudí
-                    </p>
-                    <img src="assets/previews/Frame_00371.png">
 
-                </div>
-                <div class="gallery-cell">
-                    <p>Name: La Sagrada Familia<br>
-                        Location: Barcelona, Spain<br>
-                        Architect: Antoni Gaudí
-                    </p>
-                    <img src="assets/previews/Frame_00758.png">
 
+                
+                <div class="hub-slider-controls">
+                    <button class="hub-slider-arrow hub-slider-arrow_next">↑</button>
+                    <button class="hub-slider-arrow hub-slider-arrow_prev">↓</button>
                 </div>
-                <div class="gallery-cell">
-                    <p>Name: La Sagrada Familia<br>
-                        Location: Barcelona, Spain<br>
-                        Architect: Antoni Gaudí
-                    </p>
-                    <img src="assets/previews/Frame_00860.png">
 
-                </div>
-                <div class="gallery-cell">
-                    <p>Name: La Sagrada Familia<br>
-                        Location: Barcelona, Spain<br>
-                        Architect: Antoni Gaudí
-                    </p>
-                    <img src="assets/previews/Frame_00952.png">
-
-                </div>
-                <div class="gallery-cell">
-                    <p>Name: La Sagrada Familia<br>
-                        Location: Barcelona, Spain<br>
-                        Architect: Antoni Gaudí
-                    </p>
-                    <img src="assets/previews/Frame_01179.png">
-
-                </div>
             </div>
         </div>
     </section>
@@ -237,7 +222,7 @@
 
         <div id="timeline">
             <div class="timeline_container left" data-aos="fade-left" data-aos-duration="200">
-                <div class="date"></div>
+                <div class="date">1</div>
                 <i class="icon fa fa-gift"></i>
                 <div class="content" data-aos="fade-right" data-aos-duration="500">
                     <h4>01 REVELATION</h4>
@@ -247,7 +232,7 @@
                 </div>
             </div>
             <div class="timeline_container right" data-aos="fade-right" data-aos-duration="200">
-                <div class="date"></div>
+                <div class="date">2</div>
                 <i class="icon fa fa-building"></i>
                 <div class="content" data-aos="fade-left" data-aos-duration="500">
                     <h4>02 EXTENSION</h4>
@@ -258,7 +243,7 @@
                 </div>
             </div>
             <div class="timeline_container left" data-aos="fade-left" data-aos-duration="200">
-                <div class="date"></div>
+                <div class="date">3</div>
                 <i class="icon fa fa-cubes"></i>
                 <div class="content" data-aos="fade-right" data-aos-duration="500">
                     <h4>03 3D METAVERSE</h4>
@@ -268,7 +253,7 @@
                 </div>
             </div>
             <div class="timeline_container right" data-aos="fade-right" data-aos-duration="200">
-                <div class="date"></div>
+                <div class="date">4</div>
                 <i class="icon fa fa-paint-brush"></i>
                 <div class="content" data-aos="fade-left" data-aos-duration="500">
                     <h4>04 MARKETPLACE</h4>
@@ -288,30 +273,45 @@
     <!---------------------------------- team ---------------------------------->
 
     <section id="team">
-        <h2>Team</h2>
+
         <div>
             <div>
+                <h2>Team</h2>
                 <p>Located in Bay Area, CA, the ArchiVerse core team consists of software engineers, professional architects and 3D designers. We worked with top architectural design studios and IT companies, aiming to build a world-leading marketplace for young professional architects and prospective archiverser.</p>
             </div>
             <div class="profiles">
                 <div>
-                    <img src="assets/members/member1.jpeg">
+                    <img src="assets/members/016_Solomon_R.Guggenheim_Museum_10_NW.png">
+                    <p>Jolene</p>
+                    <p>
+                        The New Yorker who claimed the first architect come into her mind is Wright.</p>
                 </div>
                 <div>
-                    <img src="assets/members/member2.jpeg">
-
+                    <img src="assets/members/050_Crown_Hall_08_SW.png">
+                    <p>Febraqua</p>
+                    <p>
+                        Alumni of IIT B.Arch, spent over 1,000 nights in the Crown Hall.
+                    </p>
                 </div>
                 <div>
-                    <img src="assets/members/member3.jpeg">
-
+                    <img src="assets/members/240_GateWay_Arch_15_NE.png">
+                    <p>Ryan</p>
+                    <p>
+                        Member of AIA California - “Once a Missourian, always a Missourian.”
+                    </p>
                 </div>
                 <div>
-                    <img src="assets/members/member4.jpeg">
-
+                    <img src="assets/members/021_Habitat'67_12_NW.png">
+                    <p>Lindsay</p>
+                    <p>
+                        Artist believes in math - “computation to design is like the rhythm in poetry.”
+                    </p>
                 </div>
                 <div>
-                    <img src="assets/members/member5.jpeg">
-
+                    <img src="assets/members/149_Bird_Nest_14_SW.png">
+                    <p>Paul</p>
+                    <p>
+                        Tech Lead, earliest investor and developer in crypto, also a global traveler.</p>
                 </div>
             </div>
         </div>
@@ -325,12 +325,11 @@
 
 
     <!---------------------------------- interaction / js libraries ---------------------------------->
+    <script type="text/javascript" src="js/hubslider.min.js"></script>
     <script src="js/rellax.min.js"></script>
     <script src="js/aos.min.js"></script>
     <script src="js/glo.js"></script>
     <script src="js/interactions.js"></script>
 
 
-</body>
-
-</html>
+</body></html>

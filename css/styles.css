@@ -31,6 +31,10 @@ p {
     font-family: 'Lato', sans-serif;
 }
 
+h2 {
+    font-size: 52px;
+}
+
 body {
     margin: 0;
 }
@@ -64,8 +68,7 @@ b {
     right: 0;
     top: 0;
     bottom: 0;
-    background: var(--accent);
-    filter: brightness(0.05);
+    background: black;
     /*    background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);*/
     z-index: -1;
 }
@@ -268,8 +271,8 @@ section {
     position: fixed;
     top: 10vh;
     bottom: 10vh;
-    right: 10vw;
-    left: 70vw;
+    right: 5vw;
+    left: 55vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -317,7 +320,15 @@ section {
 }
 
 .inner > div {
-    padding-top: 100px;
+    padding-top: 50px;
+}
+
+.inner h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 192px;
+    line-height: 1em;
+    font-weight: 400;
+    margin: 0;
 }
 
 .welcome {
@@ -352,8 +363,8 @@ section {
 /* -------------------- intro text -------------------- */
 
 .archiverse_text {
-    width: 60vw;
-    margin-left: -1vw;
+    width: 40vw;
+    margin-left: -0.5vw;
 }
 
 .text {
@@ -416,7 +427,7 @@ section {
 }
 
 .columns > div {
-    width: 20vw;
+    width: 25vw;
 }
 
 .columns p {
@@ -424,31 +435,46 @@ section {
 }
 
 .columns h2 {
-    font-size: 42px;
+    font-size: 52px;
 }
 
 .columns h4 {
     font-size: 24px;
 }
 
+.cube {
+    position: absolute;
+    height: 100vh;
+    left: -20vh;
+    opacity: 0.2;
+}
+
 .benefits {
     list-style-type: none;
     counter-reset: li;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .benefits > li {
-    margin-bottom: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: solid 1px white;
 }
 
-.benefits > li:before {
+.benefits li:before {
     counter-increment: li;
     margin-left: -40px;
-    margin-top: -7px;
     position: absolute;
     content: counter(li, decimal-leading-zero);
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 600;
     margin-right: 0.25em;
+}
+
+.benefits li:after {
+    content: "";
+    border-bottom: solid 1px pink;
 }
 
 
@@ -486,11 +512,15 @@ section {
     display: none;
 }
 
-#tooltip > h2,
+#tooltip > h4,
 #tooltip > p {
     color: var(--primary);
     line-height: 1.2em;
     margin: 0;
+}
+
+#tooltip > h4 {
+    font-size: 36px;
 }
 
 #globe {
@@ -513,8 +543,67 @@ section {
     z-index: 999;
 }
 
+.hub-slider {
+    position: relative;
+}
+
+.hub-slider ul {
+    list-style: none;
+}
+
+
+.hub-slider ul li {
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: black;
+    overflow: visible;
+}
+
+.hub-slider ul li img {
+    width: 500px;
+    height: 100%;
+}
+
+.hub-slider ul li p {
+    position: absolute;
+    bottom: 0;
+    left: 525px;
+    width: 250px;
+    color: gray;
+}
+
+.hub-slider ul li p b {
+    color: white;
+}
+
+.hub-slider-controls {
+    position: absolute;
+    z-index: 999;
+    left: 520px;
+}
+
+.hub-slider-controls button {
+    border: none;
+    background: white;
+    color: black;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.hub-slider-controls button:hover {
+    background: gray;
+}
+
 .carousel {
     width: 100%;
+    height: 500px;
 }
 
 #samples h2 {
@@ -583,7 +672,7 @@ section {
     margin: 0;
     margin-bottom: 10px;
     font-size: 24px;
-    color: var(--accent);
+    color: white;
     /*    line-height: 2em;*/
 }
 
@@ -636,11 +725,17 @@ section {
 }
 
 .timeline_container .date {
+    border: solid 1px white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
     position: absolute;
-    display: inline-block;
-    top: calc(50% - 9px);
-    text-align: center;
-    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: calc(50% - 15px);
+    font-size: 16px;
+    line-height: 16px;
     font-weight: bold;
     color: #fff;
     letter-spacing: 1px;
@@ -682,7 +777,7 @@ section {
 .timeline_container .content {
     padding: 30px 90px 30px 30px;
     margin: 0 90px 0 0;
-    background: var(--secondary);
+    background: var(--accent);
     position: relative;
     border-radius: 5px;
 }
@@ -691,7 +786,7 @@ section {
     padding: 30px 30px 30px 90px;
     border-radius: 5px;
     margin: 0 0 0 90px;
-    background: var(--secondary);
+    background: var(--accent);
 }
 
 .timeline_container .content h2 {
@@ -728,11 +823,13 @@ section {
 }
 
 .profiles > div > p {
-    margin: 0;
+    margin-bottom: 0;
     text-align: center;
+    opacity: 0.5;
 }
 
 .profiles > div > img {
+    border-radius: 50%;
     width: 130px;
 }
 
