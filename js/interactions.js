@@ -3,14 +3,14 @@ var stoppingpoint = document.getElementById("samples").offsetTop + page_height /
 
 var onScrollHandler = function () {
 
-    if (document.documentElement.scrollTop < 1290 && document.getElementById("center_piece_container").style.right != "10vw") {
-        document.getElementById("center_piece_container").style.right = "10vw";
-        document.getElementById("center_piece_container").style.left = "70vw";
+    if (document.documentElement.scrollTop < 1290 && document.getElementById("center_piece_container").style.right !== "5vw") {
+        document.getElementById("center_piece_container").style.right = "5vw";
+        document.getElementById("center_piece_container").style.left = "55vw";
     }
 
-    if (document.documentElement.scrollTop >= 1290 && document.getElementById("center_piece_container").style.right == "10vw") {
-        document.getElementById("center_piece_container").style.right = "25vw";
-        document.getElementById("center_piece_container").style.left = "25vw";
+    if (document.documentElement.scrollTop >= 1290 && document.getElementById("center_piece_container").style.right !== "30vw") {
+        document.getElementById("center_piece_container").style.right = "30vw";
+        document.getElementById("center_piece_container").style.left = "30vw";
     }
 
     let img_id = (document.documentElement.scrollTop / 10).toFixed(0);
@@ -55,6 +55,10 @@ var onScrollHandler = function () {
     };
 
 };
+
+function findcurrent(){
+    console.log("a")
+}
 
 
 function preload() {

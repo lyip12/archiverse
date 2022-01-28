@@ -118,7 +118,7 @@ function drawMarkers() {
         .attr('r', 3)
         .on("mouseover", function (d) {
             d3.select(this).transition().attr("r", 10);
-            document.getElementById("tooltip").innerHTML = "<h2>" + Capitalize(d.name.replace(/_/g, ' ')) + "</h2><p>" + d.designer + "</p><p>" + d.lat + ", " + d.long + "</p>";
+            document.getElementById("tooltip").innerHTML = "<h4>" + Capitalize(d.name.replace(/_/g, ' ')) + "</h4><p>" + d.designer + "</p><p>" + d.lat + ", " + d.long + "</p>";
             document.getElementById("tooltip").style.display = "block";
             document.getElementById("tooltip").style.left = d3.event.clientX + 25 + "px";
             document.getElementById("tooltip").style.top = d3.event.clientY - 50 + "px";

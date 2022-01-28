@@ -1,0 +1,17 @@
+.hub-slider {
+    position: relative;
+}
+
+.hub-slider ul {
+    list-style: none;
+}
+
+
+.hub-slider ul li {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
