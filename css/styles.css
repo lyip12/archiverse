@@ -204,8 +204,8 @@ nav > span {
 
 .button {
     padding: 13px 26px;
-    border: solid 1px #fff;
-    background: none;
+    border: none;
+    background: var(--accent);
     font-size: 16px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     color: #fff;
@@ -822,6 +822,7 @@ section {
 
 .profiles > div {
     padding: 10px;
+    text-align: center;
 }
 
 .profiles > div > p {
