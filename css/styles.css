@@ -367,6 +367,16 @@ section {
     margin-left: -0.5vw;
 }
 
+.text_background {
+    fill: none;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 0.1em;
+    font-size: 52px;
+    stroke-width: 1px;
+    stroke: white;
+    opacity: 0.2;
+}
+
 .text {
     fill: none;
     font-family: 'Staatliches', cursive;
@@ -380,28 +390,22 @@ section {
     animation: stroke 20s infinite linear;
 }
 
-.text:nth-child(4n + 1) {
+.text:nth-child(3n + 1) {
     stroke: white;
     -webkit-animation-delay: -4s;
     animation-delay: -4s;
 }
 
-.text:nth-child(4n + 2) {
-    stroke: var(--primary);
+.text:nth-child(3n + 2) {
+    stroke: white;
     -webkit-animation-delay: -8s;
     animation-delay: -8s;
 }
 
-.text:nth-child(4n + 3) {
-    stroke: var(--secondary);
+.text:nth-child(3n + 3) {
+    stroke: white;
     -webkit-animation-delay: -12s;
     animation-delay: -12s;
-}
-
-.text:nth-child(4n + 4) {
-    stroke: var(--accent);
-    -webkit-animation-delay: -16s;
-    animation-delay: -16s;
 }
 
 @-webkit-keyframes stroke {
@@ -842,6 +846,10 @@ section {
 #footer {
     min-height: 200px;
     background: var(--secondary);
-    color: var(--primary);
+    color: white;
     margin-top: 50px;
+}
+
+#footer a:hover {
+    color: var(--accent);
 }

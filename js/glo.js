@@ -5,11 +5,20 @@ const config = {
     verticalTilt: -20,
     horizontalTilt: 0
 }
+
 let locations = [];
+
 const svg = d3.select('#globe')
     .append("svg")
     .attr('width', width)
     .attr('height', height);
+
+const line = d3.line()
+    .x(d => d.x)
+    .y(d => d.y);
+
+var pointer,
+    tooltip = document.getElementById("tooltip");
 
 svg.append("circle")
     .attr("cx", width / 2)
@@ -91,13 +100,19 @@ function zoomed() {
     drawMarkers();
 };
 
-
-
 svg.call(d3.zoom().on('zoom', zoomed));
 
 function drawMarkers() {
     const markers = markerGroup.selectAll('circle')
         .data(locations);
+
+    pointer = svg.append('path')
+        .datum(0)
+        .attr("class", "pointer")
+        .style("fill", "none")
+        .style("stroke-width", 2)
+        .style("stroke", "white");
+
     markers
         .enter()
         .append('circle')
@@ -118,15 +133,56 @@ function drawMarkers() {
         .attr('r', 3)
         .on("mouseover", function (d) {
             d3.select(this).transition().attr("r", 10);
-            document.getElementById("tooltip").innerHTML = "<h4>" + Capitalize(d.name.replace(/_/g, ' ')) + "</h4><p>" + d.designer + "</p><p>" + d.lat + ", " + d.long + "</p>";
-            document.getElementById("tooltip").style.display = "block";
-            document.getElementById("tooltip").style.left = d3.event.clientX + 25 + "px";
-            document.getElementById("tooltip").style.top = d3.event.clientY - 50 + "px";
+            tooltip.innerHTML = "<h4>" + Capitalize(d.name.replace(/_/g, ' ')) + "</h4><p>" + d.designer + "</p><p>" + d.lat + ", " + d.long + "</p>";
+            tooltip.style.display = "block";
+
+            if (window.innerWidth / 2 - d3.event.clientX < 0) { // if hovering on the right side
+                tooltip.style.left = (window.innerWidth - 50 - tooltip.clientWidth) + "px";
+
+                pointer.datum([
+                        {
+                            x: this.cx.baseVal.value,
+                            y: this.cy.baseVal.value
+                    },
+                        {
+                            x: this.cx.baseVal.value + 30,
+                            y: this.cy.baseVal.value + 70
+                    },
+                        {
+                            x: width,
+                            y: this.cy.baseVal.value + 70
+                    },
+              ])
+                    .attr('d', line);
+
+            } else {
+                tooltip.style.left = "50px";
+
+                pointer.datum([
+                        {
+                            x: this.cx.baseVal.value,
+                            y: this.cy.baseVal.value
+                    },
+                        {
+                            x: this.cx.baseVal.value - 30,
+                            y: this.cy.baseVal.value + 70
+                    },
+                        {
+                            x: 0,
+                            y: this.cy.baseVal.value + 70
+                    },
+              ])
+                    .attr('d', line);
+            }
+
+            tooltip.style.top = d3.event.clientY + 50 + "px";
 
         })
         .on("mouseout", function (d) {
+            d3.selectAll(".pointer").datum(0)
+                .attr('d', line)
             d3.select(this).transition().attr("r", 3);
-            document.getElementById("tooltip").style.display = "none";
+            tooltip.style.display = "none";
         })
 
     markerGroup.each(function () {

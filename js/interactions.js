@@ -57,7 +57,7 @@ var onScrollHandler = function () {
 };
 
 function findcurrent(){
-    console.log("a")
+    console.log("deprecated function")
 }
 
 
