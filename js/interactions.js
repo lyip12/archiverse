@@ -29,6 +29,8 @@ function updateImage() {
         } else {
             img_id = "assets/seq/nocut/Frame_00" + (scroll_id % 100) + ".png";
         }
+        
+        document.getElementById("center_piece_container").style.display = "flex";
 
     } else if (scroll_id > 0) {
 
@@ -39,6 +41,8 @@ function updateImage() {
         } else {
             img_id = "assets/seq/cut/Frame_00" + scroll_id + ".png";
         }
+        
+        document.getElementById("center_piece_container").style.display = "flex";
 
     } else {
 

@@ -61,11 +61,12 @@ function drawGlobe() {
 
             svg.selectAll(".segment")
                 .data(topojson.feature(worldData, worldData.objects.countries).features)
-                .enter().append("path")
+                .enter()
+                .append("path")
                 .attr("class", "segment")
                 .attr("d", path)
-                .style("stroke", "var(--secondary)")
-                .style("stroke-width", "1px")
+                .style("stroke", "var(--accent)")
+                .style("stroke-width", "0.5px")
                 .style("fill", (d, i) => 'url(#img1)')
 
             svg.call(d3.zoom().on('zoom', zoomed));
@@ -90,7 +91,8 @@ function drawGraticule() {
         .attr("class", "graticule")
         .attr("d", path)
         .style("fill", "none")
-        .style("stroke", "var(--secondary)");
+        .style("stroke", "var(--accent)")
+        .style("opacity", 0.3);
 }
 
 function zoomed() {
