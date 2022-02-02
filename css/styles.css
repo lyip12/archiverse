@@ -1,7 +1,7 @@
 :root {
     --primary: black;
     --secondary: gray;
-    --accent: #4EB7D6;
+    --accent: #FD740D;
     --pageborder: 100px;
 }
 
@@ -156,7 +156,7 @@ nav > span {
     -moz-box-shadow: inset 0px 0px 0px 1px #fff;
     box-shadow: inset 0px 0px 0px 1px #fff;
 */
-    background: rgba(255, 255, 255, 0.5);
+    filter: brightness(1.5);
     cursor: pointer;
 }
 
@@ -251,7 +251,7 @@ section {
 #center_piece_container {
     position: fixed;
     top: 10vh;
-    bottom: 10vh;
+    bottom: 20vh;
     right: 5vw;
     left: 55vw;
     display: flex;
@@ -273,7 +273,7 @@ section {
 }
 
 #mint_button {
-    margin-top: -50px;
+    margin-top: -25px;
     z-index: 999;
 }
 

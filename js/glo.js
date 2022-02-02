@@ -66,7 +66,7 @@ function drawGlobe() {
                 .attr("d", path)
                 .style("stroke", "var(--secondary)")
                 .style("stroke-width", "1px")
-                .style("fill", (d, i) => 'var(--secondary)')
+                .style("fill", (d, i) => 'url(#img1)')
 
             svg.call(d3.zoom().on('zoom', zoomed));
 
