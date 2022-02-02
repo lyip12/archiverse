@@ -38,6 +38,13 @@
 
 <body>
 
+    <div id="mobile_version">
+        <div>
+            <img id="logo" src="assets/logo.png">
+            <p>Unfortunately, <b>arkvrs.com</b> is not yet optimized for mobile. Please visit our site on a desktop device instead. Thank you.</p>
+        </div>
+    </div>
+
     <!---------------------------------- center spinning piece ---------------------------------->
 
     <div id="center_piece_container">
@@ -61,24 +68,24 @@
     </nav>
 
     <!---------------------------------- randomize color button ---------------------------------->
-    <div class="randomize_color" onclick="randomizecolor();"><i class="fa fa-random"></i><span>POP</span></div>
+    <!--    <div class="randomize_color" onclick="randomizecolor();"><i class="fa fa-random"></i><span>POP</span></div>-->
 
     <!---------------------------------- hero/intro ---------------------------------->
 
-    <div class="background"></div>
+    <div id="bkgd" class="background"></div>
     <div id="bkimg1" class="rellax" data-rellax-speed="-30"></div>
 
     <div id="intro" class="wrap">
         <div class="inner">
             <div>
-                <svg class="archiverse_text" viewBox="0 0 210 100">
+                <svg class="archiverse_text" viewBox="0 0 210 90">
                     <symbol id="b-text">
-                        <text text-anchor="left" x="1%" y="50%">Welcome</text>
-                        <text text-anchor="left" x="1%" y="95%">to the</text>
+                        <text text-anchor="left" alignment-baseline="baseline" x="1%" y="48%">Welcome</text>
+                        <text text-anchor="left" alignment-baseline="hanging" x="1%" y="52%">to the</text>
                     </symbol>
                     <symbol id="s-text">
-                        <text text-anchor="left" x="1%" y="50%">Welcome</text>
-                        <text text-anchor="left" x="1%" y="95%">to the</text>
+                        <text text-anchor="left" alignment-baseline="baseline" x="1%" y="48%">Welcome</text>
+                        <text text-anchor="left" alignment-baseline="hanging" x="1%" y="52%">to the</text>
                     </symbol>
                     <use class="text_background" xlink:href="#b-text"></use>
                     <use class="text" xlink:href="#s-text"></use>
@@ -131,7 +138,7 @@
 
 
     <section id="samples">
-        <div style="width: 50%; padding-right: var(--pageborder)">
+        <div style="width: 40vw; padding-right: var(--pageborder)">
             <h2>Inspired by Masterpieces</h2>
             <p>We selected masterpieces designed by globally recognized architects - Antoni Gaudi, Le Corbusier, Frank Lloyd Wright and more. They include but are not limited to La Sagrada Familia, Chapelle Notre-Dame du Haut, Guggenheim Museum, and more. Each of them has a natural collection value which will increase over time.</p>
         </div>

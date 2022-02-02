@@ -5,6 +5,7 @@
     --pageborder: 100px;
 }
 
+/*
 html[data-theme="1"] {
     --accent: #4EB7D6;
 }
@@ -24,6 +25,7 @@ html[data-theme="4"] {
 html[data-theme="5"] {
     --primary: #4E4694;
 }
+*/
 
 html,
 h2,
@@ -37,6 +39,7 @@ h2 {
 
 body {
     margin: 0;
+    background: black;
 }
 
 * {
@@ -229,17 +232,6 @@ section {
 
 /* -------------------- background images -------------------- */
 
-.bkgd {
-    width: 100vw;
-    height: 100vh;
-    margin-bottom: -100vh;
-    background-image: url(../assets/bkgd.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
-    opacity: 0.2;
-    z-index: -1;
-}
 
 #bkimg1 {
     width: 100vw;
@@ -249,21 +241,10 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    opacity: 0.1;
+    opacity: 0.05;
     z-index: -1;
 }
 
-#bkimg2 {
-    width: 100vw;
-    height: 80vw;
-    margin-bottom: -80vw;
-    background-image: url("../assets/b2.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.1;
-    z-index: -1;
-}
 
 /* -------------------- center piece -------------------- */
 
@@ -292,6 +273,7 @@ section {
 }
 
 #mint_button {
+    margin-top: -50px;
     z-index: 999;
 }
 
@@ -325,7 +307,7 @@ section {
 
 .inner h1 {
     font-family: 'Staatliches', cursive;
-    font-size: 192px;
+    font-size: 10vw;
     line-height: 1em;
     font-weight: 400;
     margin: 0;
@@ -371,7 +353,7 @@ section {
     fill: none;
     font-family: 'Staatliches', cursive;
     letter-spacing: 0.1em;
-    font-size: 52px;
+    font-size: 48px;
     stroke-width: 1px;
     stroke: white;
     opacity: 0.2;
@@ -381,7 +363,7 @@ section {
     fill: none;
     font-family: 'Staatliches', cursive;
     letter-spacing: 0.1em;
-    font-size: 52px;
+    font-size: 48px;
     stroke-width: 2px;
     stroke-linejoin: round;
     stroke-dasharray: 10 50;
@@ -435,28 +417,29 @@ section {
 }
 
 .columns p {
-    font-size: 18px;
+    font-size: 1vw;
+    line-height: 1.4vw;
 }
 
 .columns h2 {
-    font-size: 52px;
+    font-size: 3.5vw;
 }
 
 .columns h4 {
-    font-size: 24px;
+    font-size: 2vw;
 }
 
 .cube {
     position: absolute;
     height: 100vh;
     left: -20vh;
-    opacity: 0.2;
+/*    opacity: 0.2;*/
 }
 
 .benefits {
     list-style-type: none;
     counter-reset: li;
-    font-size: 20px;
+    font-size: 1.3vw;
     line-height: 30px;
 }
 
@@ -557,8 +540,8 @@ section {
 
 
 .hub-slider ul li {
-    width: 800px;
-    height: 500px;
+    width: calc(35vw + 300px);
+    height: 35vw;
     position: absolute;
     left: 0;
     top: 0;
@@ -567,15 +550,15 @@ section {
 }
 
 .hub-slider ul li img {
-    width: 500px;
+    width: 35vw;
     height: 100%;
 }
 
 .hub-slider ul li p {
     position: absolute;
     bottom: 0;
-    left: 525px;
-    width: 250px;
+    left: calc(35vw + 25px);
+    width: 200px;
     color: gray;
 }
 
@@ -605,7 +588,7 @@ section {
 
 .carousel {
     width: 100%;
-    height: 500px;
+    height: 35vw;
 }
 
 #samples h2 {
@@ -853,4 +836,38 @@ section {
 
 #footer a:hover {
     color: var(--accent);
+}
+
+#mobile_version {
+    display: none;
+}
+
+@media only screen and (max-width: 991px) {
+
+    section,
+    #intro,
+    #bkgd,
+    #bkimg1,
+    hr,
+    nav,
+    #center_piece_container {
+        display: none !important;
+    }
+
+    #mobile_version {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20vw;
+    }
+
+    #mobile_version p {
+        color: #b2b2b2;
+    }
+
 }
