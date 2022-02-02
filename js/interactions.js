@@ -3,6 +3,7 @@ var stoppingpoint = ((document.getElementById("samples").offsetTop + page_height
 
 var onScrollHandler = function () {
     updateImage();
+    unrelease();
 };
 
 function updateImage() {
@@ -121,6 +122,14 @@ function preload() {
         }
     }
 }
+
+function releasingsoon(){
+    document.getElementById("releasing").style.display = "flex";
+}
+
+function unrelease(){
+    document.getElementById("releasing").style.display = "none";
+};
 
 preload();
 
