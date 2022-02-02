@@ -438,7 +438,7 @@ section {
     position: absolute;
     height: 100vh;
     left: -20vh;
-/*    opacity: 0.2;*/
+    /*    opacity: 0.2;*/
 }
 
 .benefits {
@@ -870,6 +870,43 @@ section {
 
 #mobile_version {
     display: none;
+}
+
+#releasing {
+    position: fixed;
+    left: 10vw;
+    right: 10vw;
+    top: 10vw;
+    bottom: 10vw;
+    padding: 0 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(10, 10, 10, 0.9);
+    font-size: 3vw;
+    text-align: center;
+    color: white;
+    z-index: 999999;
+    display: none;
+    border: solid 0.5px white;
+}
+
+#releasing a:hover {
+    color: var(--accent);
+}
+
+#releasing button {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    background: none;
+    border: none;
+    font-size: 50px;
+}
+
+#releasing button:hover {
+    color: var(--accent);
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 991px) {
