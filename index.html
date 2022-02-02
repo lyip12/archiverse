@@ -37,20 +37,34 @@
 </head>
 
 <body>
+    <svg style="width: 0; height: 0">
+        <defs>
+            <pattern id="img1" patternUnits="userSpaceOnUse" width="960" height="500">
+                <image xlink:href="assets/dot.png" x="0" y="0" width="960" height="500" /><!-- Image from http://silviahartmann.com/background-tile/6-grass-meadow-tile.php-->
+            </pattern>
+        </defs>
+    </svg>
+
+    <div id="mobile_version">
+        <div>
+            <img id="logo" src="assets/logo.png">
+            <p>Unfortunately, <b>arkvrs.com</b> is not yet optimized for mobile. Please visit our site on a desktop device instead. Thank you.</p>
+        </div>
+    </div>
 
     <!---------------------------------- center spinning piece ---------------------------------->
 
     <div id="center_piece_container">
-        <img id="center_piece" src="assets/seq/cut/Frame_00000 copy.png">
+        <img id="center_piece" src="assets/seq/cut/Frame_00023.png">
         <button id="mint_button" class="button"><span>Mint</span></button>
     </div>
 
     <!---------------------------------- navbar ---------------------------------->
     <nav>
-        <span class="nav_left">
+        <a href="" class="nav_left">
             <img id="logo" src="assets/logo.png">
             <h2 class="logo_text">ARKVRS</h2>
-        </span>
+        </a>
         <div class="nav_hr"></div>
         <span class="nav_right">
             <a href="https://twitter.com/arkvrs/" target="_blank"><img class="nav_icon" src="assets/icons/twitter.svg"></a>
@@ -61,24 +75,24 @@
     </nav>
 
     <!---------------------------------- randomize color button ---------------------------------->
-    <div class="randomize_color" onclick="randomizecolor();"><i class="fa fa-random"></i><span>POP</span></div>
+    <!--    <div class="randomize_color" onclick="randomizecolor();"><i class="fa fa-random"></i><span>POP</span></div>-->
 
     <!---------------------------------- hero/intro ---------------------------------->
 
-    <div class="background"></div>
+    <div id="bkgd" class="background"></div>
     <div id="bkimg1" class="rellax" data-rellax-speed="-30"></div>
 
     <div id="intro" class="wrap">
         <div class="inner">
             <div>
-                <svg class="archiverse_text" viewBox="0 0 210 100">
+                <svg class="archiverse_text" viewBox="0 0 210 90">
                     <symbol id="b-text">
-                        <text text-anchor="left" x="1%" y="50%">Welcome</text>
-                        <text text-anchor="left" x="1%" y="95%">to the</text>
+                        <text text-anchor="left" alignment-baseline="baseline" x="1%" y="48%">Welcome</text>
+                        <text text-anchor="left" alignment-baseline="hanging" x="1%" y="52%">to the</text>
                     </symbol>
                     <symbol id="s-text">
-                        <text text-anchor="left" x="1%" y="50%">Welcome</text>
-                        <text text-anchor="left" x="1%" y="95%">to the</text>
+                        <text text-anchor="left" alignment-baseline="baseline" x="1%" y="48%">Welcome</text>
+                        <text text-anchor="left" alignment-baseline="hanging" x="1%" y="52%">to the</text>
                     </symbol>
                     <use class="text_background" xlink:href="#b-text"></use>
                     <use class="text" xlink:href="#s-text"></use>
@@ -131,7 +145,7 @@
 
 
     <section id="samples">
-        <div style="width: 50%; padding-right: var(--pageborder)">
+        <div style="width: 40vw; padding-right: var(--pageborder)">
             <h2>Inspired by Masterpieces</h2>
             <p>We selected masterpieces designed by globally recognized architects - Antoni Gaudi, Le Corbusier, Frank Lloyd Wright and more. They include but are not limited to La Sagrada Familia, Chapelle Notre-Dame du Haut, Guggenheim Museum, and more. Each of them has a natural collection value which will increase over time.</p>
         </div>
@@ -284,37 +298,37 @@
             </div>
             <div class="profiles">
                 <div>
-                    <img src="assets/members/016_Solomon_R.Guggenheim_Museum_10_NW.png">
-                    <h4>Jolene</h4>
+                    <img src="assets/members/016_Solomon_R.Guggenheim_Museum_09_NW.png">
+                    <h4>Lapis</h4>
                     <p>
                         The New Yorker who claimed the first architect come into her mind is Wright.</p>
                 </div>
                 <div>
-                    <img src="assets/members/050_Crown_Hall_08_SW.png">
-                    <h4>Febraqua</h4>
+                    <img src="assets/members/050_Crown_Hall_10_NE.png">
+                    <h4>Febaqua</h4>
                     <p>
                         Alumni of IIT B.Arch, spent over 1,000 nights in the Crown Hall.
                     </p>
                 </div>
                 <div>
-                    <img src="assets/members/240_GateWay_Arch_15_NE.png">
-                    <h4>Ryan</h4>
+                    <img src="assets/members/252_Golden_Gate_Bridge_02_NW.png">
+                    <h4>()</h4>
                     <p>
                         Member of AIA California - “Once a Missourian, always a Missourian.”
                     </p>
                 </div>
                 <div>
-                    <img src="assets/members/021_Habitat'67_12_NW.png">
-                    <h4>Lindsay</h4>
+                    <img src="assets/members/244_GSD_Gund_Hall_11_SW.png">
+                    <h4>L-3</h4>
                     <p>
                         Artist believes in math - “computation to design is like the rhythm in poetry.”
                     </p>
                 </div>
                 <div>
-                    <img src="assets/members/149_Bird_Nest_14_SW.png">
-                    <h4>Paul</h4>
+                    <img src="assets/members/162_Eiffel_Tower_05_NW.png">
+                    <h4>Re: TLDR</h4>
                     <p>
-                        Tech Lead, earliest investor and developer in crypto, also a global traveler.</p>
+                        Earliest investor and developer in crypto, also a global traveler.</p>
                 </div>
             </div>
         </div>
@@ -323,7 +337,7 @@
 
     <!---------------------------------- footer ---------------------------------->
     <section id="footer">
-        <a href="https://google.com">privacy policy</a> and <a href="https://google.com">terms of service</a><br>
+        <a href="terms.html">privacy policy and terms of service</a><br>
         Copyright © ARKVRS 2022. All right reserved.
     </section>
 
