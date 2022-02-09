@@ -11,7 +11,7 @@ let locations = [];
 const svg = d3.select('#globe')
     .append("svg")
     .attr('width', width)
-    .attr('height', height);
+    .attr('height', height + 50);
 
 const line = d3.line()
     .x(d => d.x)
@@ -37,25 +37,34 @@ drawGlobe();
 function drawGlobe() {
     d3.queue()
         .defer(d3.json, 'https://gist.githubusercontent.com/mbostock/4090846/raw/d534aba169207548a8a3d670c9c2cc719ff05c47/world-110m.json')
-        .defer(d3.csv, 'files/archi.csv')
+        .defer(d3.csv, 'files/list.csv')
         .await((error, worldData, locationData) => {
+        
+        locationData.forEach(function (d) {
+            d.latitude = +d.latitude;
+            d.longitude = +d.longitude; 
+            
+            if(d.architect == "xxx"){
+                d.architect = "unknown architect";
+            }
+        });
 
-            locationData.forEach(function (d) {
-                d.lat = d.latitude;
-                d.long = d.longitude;
-
-                if (d.latitude.includes("N")) {
-                    d.latitude = +(d.latitude.replace("N", "")) || 0;
-                } else {
-                    d.latitude = 360 - +(d.latitude.replace("S", "")) || 0;
-                };
-
-                if (d.longitude.includes("E")) {
-                    d.longitude = +(d.longitude.replace("E", "")) || 0;
-                } else {
-                    d.longitude = 360 - +(d.longitude.replace("W", "")) || 0;
-                }
-            })
+//            locationData.forEach(function (d) {
+//                d.lat = d.latitude;
+//                d.long = d.longitude;
+//
+//                if (d.latitude.includes("N")) {
+//                    d.latitude = +(d.latitude.replace("N", "")) || 0;
+//                } else {
+//                    d.latitude = 360 - +(d.latitude.replace("S", "")) || 0;
+//                };
+//
+//                if (d.longitude.includes("E")) {
+//                    d.longitude = +(d.longitude.replace("E", "")) || 0;
+//                } else {
+//                    d.longitude = 360 - +(d.longitude.replace("W", "")) || 0;
+//                }
+//            })
 
             drawGraticule();
 
@@ -135,7 +144,7 @@ function drawMarkers() {
         .attr('r', 3)
         .on("mouseover", function (d) {
             d3.select(this).transition().attr("r", 10);
-            tooltip.innerHTML = "<h4>" + Capitalize(d.name.replace(/_/g, ' ')) + "</h4><p>" + d.designer + "</p><p>" + d.lat + ", " + d.long + "</p>";
+            tooltip.innerHTML = "<h4>" + Capitalize(d.architecture.replace(/_/g, ' ')) + "</h4><p>" + d.architect + "</p><p>" + d.country + " / " + d.continent + "</p>";
             tooltip.style.display = "block";
 
             if (window.innerWidth / 2 - d3.event.clientX < 0) { // if hovering on the right side

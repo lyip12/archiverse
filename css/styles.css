@@ -280,6 +280,7 @@ section {
 #mint_button {
     margin-top: -25px;
     z-index: 999;
+    text-decoration: none;
 }
 
 /* -------------------- intro -------------------- */
@@ -502,6 +503,7 @@ section {
     padding: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: none;
+    min-width: calc(50vw - 430px);
 }
 
 #tooltip > h4,
