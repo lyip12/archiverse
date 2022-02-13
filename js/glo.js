@@ -144,7 +144,7 @@ function drawMarkers() {
         .attr('r', 3)
         .on("mouseover", function (d) {
             d3.select(this).transition().attr("r", 10);
-            tooltip.innerHTML = "<h4>" + Capitalize(d.architecture.replace(/_/g, ' ')) + "</h4><p>" + d.architect + "</p><p>" + d.country + " / " + d.continent + "</p>";
+            tooltip.innerHTML = "<h4>" + Capitalize(d.architecture.replace(/_/g, ' ')) + "</h4><p>" + d.architect + "</p><p>" + d.city + ", " + d.country + ", " + d.continent + "</p>";
             tooltip.style.display = "block";
 
             if (window.innerWidth / 2 - d3.event.clientX < 0) { // if hovering on the right side

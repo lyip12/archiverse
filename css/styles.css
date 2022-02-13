@@ -1,7 +1,8 @@
 :root {
     --primary: black;
     --secondary: gray;
-    --accent: #FD740D;
+    --accent: #ed7b33;
+    --accent2: #4d1cab;
     --pageborder: 100px;
 }
 
@@ -31,6 +32,10 @@ html,
 h2,
 p {
     font-family: 'Lato', sans-serif;
+}
+
+p {
+    line-height: 1.5em !important;
 }
 
 h2 {
@@ -481,7 +486,7 @@ section {
     width: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     z-index: 99;
-    filter: brightness(2) saturate(0.5) opacity(0.1);
+/*    filter: brightness(2) saturate(0.5) opacity(0.1);*/
 }
 
 
@@ -509,7 +514,7 @@ section {
 #tooltip > h4,
 #tooltip > p {
     color: var(--primary);
-    line-height: 1.2em;
+    line-height: 1.5em;
     margin: 0;
 }
 
@@ -749,7 +754,7 @@ section {
     height: 40px;
     padding: 9px 0;
     top: calc(50% - 20px);
-    background: var(--accent);
+    background: var(--accent2);
     border: 2px solid #fff;
     border-radius: 40px;
     text-align: center;
@@ -769,7 +774,7 @@ section {
 .timeline_container .content {
     padding: 30px 90px 30px 30px;
     margin: 0 90px 0 0;
-    background: var(--accent);
+    background: var(--accent2);
     position: relative;
     border-radius: 5px;
 }
@@ -778,7 +783,7 @@ section {
     padding: 30px 30px 30px 90px;
     border-radius: 5px;
     margin: 0 0 0 90px;
-    background: var(--accent);
+    background: var(--accent2);
 }
 
 .timeline_container .content h2 {
