@@ -1,228 +1,237 @@
-kind,name,version,latitude,longitude,year,designer,style,country,region,latlong,
-现代主义大师,001_Villa_Savoye,0,48.9244N,2.0283E,,Le Corbusier,,FRANCE,EUROPE,,
-现代主义大师,002_Chapelle_Notre-Dame_du_Haut,0,47.7045N,6.6207E,,Le Corbusier,,FRANCE,EUROPE,,
-现代主义大师,003_Barcelona_Pavilion,0,41.3706N,2.1502E,,Ludwig Mies van der Rohe,,SPAIN,EUROPE,,
-现代主义大师,005_S.C.Johnson_&_Son_Headquarters,0,42°42′49″N,87°47′27″W,,Frank Lloyd Wright,,US,NORTH AMERICA,,
-现代主义大师,006_Farnsworth_House,0,41.6350N,88.5357W,,Ludwig Mies van der Rohe,,US,NORTH AMERICA,,
-现代主义大师,007_Salk_Institute,0,32.8872N,-117.245343W,,Louis I. Kahn,,US,NORTH AMERICA,,
-现代主义大师,009_Couvent_Sainte-Marie_de_La_Tourette,0,45.8194N,4.6225E,,Le Corbusier,,FRANCE,EUROPE,,
-现代主义大师,010_TWA_Flight_Center,0,40.6458N,73.7753W,,Eero Saarinen,,US,NORTH AMERICA,,
-现代主义大师,012_Guggenheim_Museum_Bilbao,0,43.2687N,2.9340W,,Frank Gehry,,SPAIN,EUROPE,,
-现代主义大师,013_Parc_de_la_Villette,0,48.8938N,2.3903E,,,,,,,
-现代主义大师,015_Seagram_Building,0,40.7583N,73.9719W,,"Ludwig Mies van der Rohe, Philip Johnson",,US,NORTH AMERICA,,
-现代主义大师,017_The_Eames_House,0,34.02449N,-118.5183W,,Charles Eames，Ray Eames,,US,NORTH AMERICA,,
-现代主义大师,018_Leicester_University_Engineering_Building,0,52.6211N,1.1246W,,"James Gowan, James Stirling",,ENGLAND,EUROPE,,
-现代主义大师,019_Casa_del_Fascio,0,45.8123N,9.0860E,,Giuseppe Terragni,,ITALY,EUROPE,,
-现代主义大师,020_Unité_d'Habitation,0,43.2613N,5.3967E,,Le Corbusier,,FRANCE,EUROPE,,
-现代主义大师,021_Habitat'67,0,45.4998N,73.5437W,,Moshe Safdie,,CANADA,NORTH AMERICA,,
-现代主义大师,022_Kimbell_Art_Museum,0,32.7486N,97.3649W,,Louis I. Kahn,,US,NORTH AMERICA,,
-现代主义大师,023_Schroderhuis,0,52.0853N,5.1476E,,Gerrit Rietveld,,NETHERLANDS,EUROPE,,
-现代主义大师,024_Nakagin_Capsule_Tower,0,35.6656N,139.7635E,,Kisho Kurokawa,,JAPAN,ASIA,,
-现代主义大师,026_Casa_Malaparte,0,40.54694°N,14.25917°E,,Adalberto Libera,,ITALY,EUROPE,,
-现代主义大师,027_Sydney_Opera_House,0,33.8568S,151.2153E,,Jørn Utzon,,AUSTRALIA,AUSTRALIA,,
-现代主义大师,029_Phillips_Exeter_Academy_Library,0,42.97889°N,70.94944°W,,Louis I. Kahn,,US,NORTH AMERICA,,
-现代主义大师,030_AEG_Turbine_Factory,0,52.52833°N,13.32444°E,,Peter Behrens,,GERMANY,EUROPE,,
-现代主义大师,033_National_Congress_of_Brazil,0,15.79972°S,47.86417°W﻿,,Oscar Niemeyer,,US,NORTH AMERICA,,
-现代主义大师,034_Bauhaus_Dessau,0,51.8389N,12.2273E,,Walter Gropius,,GERMANY,EUROPE,,
-现代主义大师,035_Hongkong_and_Shanghai_Bank_Headquarters,0,,,,Foster and Partners,,CHINA,ASIA,,
-现代主义大师,036_Glasgow_School_of_Art,0,55.8661N,4.2637W,,Charles Rennie Mackintosh,,SCOTLAND,EUROPE,,
-现代主义大师,037_Villa_Mairea,0,61.5974N,21.8745E,,"Alvar Aalto, Aino Aalto",,US,NORTH AMERICA,,
-现代主义大师,039_Stockholm_Public_Library,0,59.3434N,18.0548E,,Gunnar Asplund,,SWEDEN,EUROPE,,
-现代主义大师,042_Einstein_Tower,0,52.3789N,13.0639E,,Erich Mendelsohn,,GERMANY,EUROPE,,
-现代主义大师,043_Lever_House,0,40.75959 n,-73.9725 w,,"Gordon Bunshaft, Natalie de Blois",,US,NORTH AMERICA,,
-现代主义大师,045_Glass_House,0,41.1464N,73.4968W,,Philip Johnson,,US,NORTH AMERICA,,
-现代主义大师,047_Olympic_Stadium_Munich,0,48.1731N,11.5466E,,"Frei Otto, Günter Behnisch, Fritz Auer, Carlo Weber, Hermann Peltz",,GERMANY,EUROPE,,
-现代主义大师,048_Gehry_House,0,34.0352N,118.4847W,,Frank Gehry,,US,NORTH AMERICA,,
-现代主义大师,049_lgualada_Cemetery,0,41.5922N,1.6372E,,Enric Miralles,,US,NORTH AMERICA,,
-现代主义大师,050_Crown_Hall,0,41.8332N,87.6273W,,Ludwig Mies van der Rohe,,US,NORTH AMERICA,,
-现代主义大师,051_Y_Vanna_Venturi_House,0,40.0707°N,75.2081°W,,Robert Venturi,,US,NORTH AMERICA,,
-现代主义大师,052_Lovell_Health_House,0,34.1182N,118.2878W,,Richard Neutra,,US,NORTH AMERICA,,
-现代主义大师,053_Tugendhat_House,0,49.2071N,16.6160E,,Ludwig Mies van der Rohe,,CZECH REPUBLIC,EUROPE,,
-现代主义大师,054_Baker_Hall_MIT,0,42.3568N,71.0958W,,Alvar Aalto,,US,NORTH AMERICA,,
-现代主义大师,055_Casa_Luis_Barragán,0,19.4112N,99.1924W,,Luis Barragán,,MEXICO,NORTH AMERICA,,
-现代主义大师,057_Museu_de_Arte_de_Sāo_Paulo,0,23.5614S,46.6559W,,Lina Bo Bardi,,US,NORTH AMERICA,,
-现代主义大师,059_Bangladesh_National_Assembly_Building,0,23.7625N,90.3786E,,"Louis Kahn, Muzharul Islam",,BANGLADESH,ASIA,,
-现代主义大师,062_Maison_à_Bordeaux,0,,,,Rem Koolhaas,,FRANCE,EUROPE,,
-现代地标/现代主义大师,063_Casa_Milà,0,41.3952N,2.1619E,,"Antoni Gaudí, Josep Maria Jujol",,SPAIN,EUROPE,,
-现代主义大师,064_Säynä¤tsalo_Town_Hall,0,,,,Alvar Aalto,,US,NORTH AMERICA,,
-现代主义大师,065_Lloyd's_of_London,0,51.5127N,0.0823W,,Edward Lloyd,,ENGLAND,EUROPE,,
-现代主义大师,066_Institut_du_Monde_Arabe,0,48.8489N,2.3572E,,"Gilbert Lèzenes, Pierre Soria",,FRANCE,EUROPE,,
-现代主义大师,067_Parc_de_la_Villette_1,0,48.8938N,2.3903E,,Bernard Tschumi,,FRANCE,EUROPE,,
-现代主义大师,068_Jewish_Museum_Berlin,0,52.5023N,13.3954E,,Daniel Libeskind,,GERMANY,EUROPE,,
-现代主义大师,070_Smith_House,0,,,,Richard Meier,,US,NORTH AMERICA,,
-现代主义大师,077_Stahl_House,0,34.1006N,118.3702W,,Pierre Koenig,,US,NORTH AMERICA,,
-现代主义大师,082_Villa_Müller,0,50.0926N,14.3752E,,Adolf Loos,,CZECH REPUBLIC,EUROPE,,
-现代主义大师,086_House_VI,0,41.832723°N,73.321445°W,,Peter Eisenman,,US,NORTH AMERICA,,
-现代主义大师,087_Beurs_van_Berlage,0,52.3751N,4.8962E,,Beurs van Berlage,,NETHERLANDS,EUROPE,,
-现代主义大师,088_Gamble_House,0,34.1516N,118.1610W,,"Henry Mather Greene, Charles Sumner Greene",,US,NORTH AMERICA,,
-现代主义大师,089_Lovell_Beach_House,0,33.6058972°N,117.9176639°W﻿,,Rudolph Schindler,,US,NORTH AMERICA,,
-现代主义大师,095_SESC_Pompéia,0,23.527042°S,46.683056°W,,Lina Bo Bardi,,BRAZIL,SOUTH AMERICA,,
-,096_Heidi_Weber_House,0,47.3563500°N,8.5511194°E,,,,,,,
-现代主义大师,098_Centraal_Beheer_Building,0,,,,Herman Hertzberger,,NETHERLANDS,EUROPE,,
-现代主义大师,099_Vitra_Fire_Station,0,47.600526N,7.615333E,,,,GERMANY,EUROPE,,
-现代主义大师,124_Maison_Citröhan,0,,,,Le Corbusier,,Germany,EUROPE,,
-现代主义大师,128_Säynätsalo_Town_Hall,0,62.1402N,25.7694E,,Alvar Aalto,,FINLAND,EUROPE,,
-现代主义大师,130_Falling_Water,0,39.9063N,79.4678W,,Frank Lloyd Wright,,US,NORTH AMERICA,,
-现代主义大师,131_Robie_House,0,41.7898N,87.5959W,,Frank Lloyd Wright,,US,NORTH AMERICA,,
-现代主义大师,134_Indian_Institute_of_Management,0,23.0329N,72.5328E,,Louis I. Kahn,,India,ASIA,,
-现代主义大师,135_Nationa__Assembly_in_Dhaka,0,23.7625N,90.3786E,,Louis I. Kahn,,Bangladesh,ASIA,,
-现代主义大师,136_The_Trenton_Bath,0,40.2598N,74.7988W,,Louis I. Kahn,,US,NORTH AMERICA,,
-现代主义大师,137_Philip_Exter_Library,0,42.97889°N, 70.94944°W,,Louis I. Kahn,,,,,
-现代主义大师,139_Fisher_House,0,40.16695°N,75.10839°W,,Louis I. Kahn,,US,NORTH AMERICA,,
-现代主义大师,141_Magrete_House,0,33.7813N,84.3845W,,Louis I. Kahn,,Belgium,EUROPE,,
-现代主义大师,142_Illinois_Institute_of_Technology,0,41.8349N,87.6270W,,Ludwig Mies van der Rohe,,US,NORTH AMERICA,,
-现代主义大师,144_Neue_Nationalgalerie,0, 52.506806°N,13.367917°E,,Ludwig Mies van der Rohe,,Germany,EUROPE,,
-现代主义大师,145_Fansworth,0,41.6350N,88.5357W,,Ludwig Mies van der Rohe,,,,,
-现代主义大师,146_860-880_Lake_Shore_Drive,0,,,,Ludwig Mies van der Rohe,,US,NORTH AMERICA,,
-现代主义大师,147_Voya_Financial_20_Washington_(Northwestern_National_Life_Building),0,44.968056N,93.285833W,,Minoru Yamasaki and Associates,,US,NORTH AMERICA,,
-现代主义大师,154_First_Unity_Temple,0,41.888333N,87.796667W,,Frank Lloyd Wright,,US,NORTH AMERICA,,
-,169_Weisenhoff,0,48.8016N,9.1772E,,Le Corbusier,,,,,
-现代主义大师,172_San_Francisco_Art_Museum,0,"37.7857N",122.4011W,,Mario Botta,,US,NORTH AMERICA,,
-现代地标,173_Burj_Al_Arab,0,25.1412N,55.1852E,,Tom Wright,,Emirates,ASIA,,
-现代主义大师,174_Casa_Rotonda_Stabio,0,,,,Mario Botta,,Switzerland,EUROPE,,
-现代主义大师,175_Church_of_God_the_Merciful_Father,0,41.8824N,12.5855E,,Richard Meier,,Italy,EUROPE,,
-现代主义大师,176_Chiesa_a_Seriate,0,45.68556°N,9.72233°E,,Mario Botta,,Italy,EUROPE,,
-现代主义大师,177_Mario_Botta_Church_of_Santo_Volto,0,,,,Mario Botta,,Italy,EUROPE,,
-现代主义大师,178_Deutsches_Historisches_Museum,0,52.5182N,13.3969E,,I.M.Pei,,Germany,NORTH AMERICA,,
-现代主义大师,179_East_Building_National_Gallery_of_Art,0,,,,I.M.Pei,,US,NORTH AMERICA,,
-现代主义大师,181_Bank_of_China_Tower,0,22.2793N,114.1615E,,I.M.Pei,,China,ASIA,,
-现代主义大师,185_Green_Building_MIT,0,42.3603N,71.0893W,,I.M.Pei,,US,NORTH AMERICA,,
-现代主义大师,187_Douglas_House,0,45.501°N,-85.0975°W,,Richard Meier,,US,NORTH AMERICA,,
-现代主义大师,188_Porto_House（Casa_da_Musica）,0,41.15861°N,8.63083°W,,Rem Koolhaas,,Portugal,EUROPE,,
-现代主义大师,189_Thorncrown_Chapel,0,36.4163N,93.7726W,, E. Fay Jones,,US,NORTH AMERICA,,
-现代主义大师,192_Hilversum_Town_Hall,0,52.2291N,5.1697E,,Willem Marinus Dudok,,Neitherland,EUROPE,,
-现代主义大师,194_Zollverein_School_of_Management_and_Design,0,,,,SANAA,,Germany,EUROPE,,
-现代主义大师,195_21st_Century_Museum_of_Contemporary_Art_Kanazawa,0,36.5608N,136.6584E,,SANAA,,Japan,EUROPE,,
-现代主义大师,198_The_Therme_Vals,0,46.6223N,9.1810E,,Peter Zumthor,,Switzerland,EUROPE,,
-现代主义大师,199_Saint_Benedict_Chapel,0,	10.6628°N,61.3964°W,,Peter Zumthor,,Switzerland,EUROPE,,
-现代主义大师,200_House_II,0,,,,Peter Eisenman,,US,NORTH AMERICA,,
-现代主义大师,202_Tadao_Ando_4x4,0,34.6419868,135.0217896,,Tado Ando,,Japan,ASIA,,
-现代主义大师,205_Nihonbashi_House,0,34.722614,135.53946,,Tado Ando,,Japan,ASIA,,
-现代主义大师,206_Church_of_the_Light,0,34.8185N,135.5370E,,Tado Ando,,Japan,ASIA,,
-现代主义大师,207_House_in_Chicago,0,,,,Tado Ando,,Japan,ASIA,,
-现代主义大师,208_Lee_House,0,41.92893982,-87.64528656,,Tado Ando,,Japan,ASIA,,
-现代主义大师,210_Row_House_in_Sumiyoshi,0,34.6105°N,135.4923°E,,Tadao Ando,,Japan,ASIA,,
-现代主义大师,213__Pavillon_Le_Corbusier,0,47.3561N,8.5509E,,Le Corbusier,,Switzerland,EUROPE,,
-现代主义大师,214_Weissenhof_Estate,0,48.8007N,9.1771E,,Le Corbusier,,Germany,EUROPE,,
-现代主义大师,215_Mother_House,0,39.2957N,76.6230W,,Le Corbusier,,Switzerland,EUROPE,,
-,216_Villa_Stein_de_Monzie,0,48.846858°N,2.177039°E,,Le Corbusier,,France,EUROPE,,
-,222_Villa_Baizeau,0,36.85825°N,10.33908°E,,Le Corbusier,,Tunisia,AFRICA,,
-,233_Walsh_House,0,38.910250°N,77.046250°W,,Glenn Murcutt,,AUSTRALIA,AUSTRALIA,,
-,234_Magney_house,0,36.0132S,150.1519E,,Glenn Murcutt,,AUSTRALIA,AUSTRALIA,,
-现代主义大师,076_Mill_Owners'Association_Building,1,,,,Le Corbusier,,INDIA,ASIA,,
-现代主义大师,084_Dymaxion_House,1,,,,Buckminster Fuller,,US,NORTH AMERICA,,
-现代主义大师,092_Carpenter_Center_for_the_Visual_Arts,1,,,,"Josep Lluís Sert, Le Corbusier",,US,NORTH AMERICA,,
-西方历史地标,101_Leaning_Tower_of_Pisa,1,43.7230N,10.3966E,,"Diotisalvi, Guglielmo",,ITALY,EUROPE,,
-西方历史地标,102_Taj_Mahal,1,27.1751N,78.0421E,,Ustad Ahmad Lahouri,,INDIA,ASIA,,
-西方历史地标,103_Colosseum,1,41.8902N,12.4922E,,Vespasian,,ITALY,EUROPE,,
-现代地标,107_Space_Needle,1,47.6205N,122.3493W,,"John “Jack” Graham, Jr. fresh",,US,EUROPE,,
-现代地标/现代主义大师,108_La_Sagrada_Familia,1,41.4036N,2.1744E,,Antoni Gaudí,,SPAIN,EUROPE,,
-现代地标,109_Cathedral_of_Brasília,1,15.7983S,47.8755W,,Oscar Niemeyer ,,Brazil,SOUTH AMERICA,,
-西方历史地标,110_The_White_House,1,38.8977N,77.0365W,,James Hoban,,US,NORTH AMERICA,,
-西方现代地标,111_Empire_State_Building,1,40.7484N,73.9857W,,"William F. Lamb, Yasuo Matsui, Arthur Loomis Harmon, Gregory Johnson",,US,NORTH AMERICA,,
-现代地标,112_Lloyd's_Building,1,51.5127N,0.0823W,,"Richard Rogers, Mike Davies, Ivan Harbour",,ENGLAND,EUROPE,,
-西方现代地标,113_Petronas_Twin_Towers,1,3.1580N,101.7118E,,César Pelli,,Malaysia,ASIA,,
-东方历史地标,115_Potala_Palace,1,29.6555N,91.1186E,,5th Dalai Lama,,CHINA,ASIA,,
-东方历史地标,116_The_Moscow_Kremlin,1,55.7520N,37.6175E,,Yuri Dolgoruki,,RUSSIAN,EUROPE,,
-西方历史地标,117_Stonehenge,1,51.1789N,1.8262W,,Christopher Wren,,ENGLAND,EUROPE,,
-西方历史地标,118_Cologne_Cathedral,1,50.9413N,6.9583E,,"Master Gerhard, Ernst Friedrich Zwirner",哥特,Germany,EUROPE,,
-西方历史地标,119_Dome_of_the_Rock,1,31.7780N,35.2354E,,"Raja ibn Haywa, Yazid Ibn Salam",,Israel,ASIA,,
-现代地标,122_Chrysler_Building,1,40.7516N,73.9755W,,William Van Alen,,US,NORTH AMERICA,,
-现代地标,123_Burj_Khalifa,1,25.1972N,55.2744E,,"Adrian Smith, George J. Efstathiou, Marshall Strabala",,Emirates,ASIA,,
-现代主义大师,127_Villa_Mairea,1,61.5974N,21.8745E,,Alvar Aalto,,FINLAND,EUROPE,,
-现代主义大师,129_Solomon_R._Guggenheim_Museum,1,40.7830N,73.9590W,,Frank Lloyd Wright,,US,NORTH AMERICA,,
-现代主义大师,150_CCTV_Headquarters,1,39.9153N,116.4642E,,Rem Koolhaas,,CHINA,ASIA,,
-现代地标,152_Jin_Mao_Tower,1,31.2353N,121.5057E,,Adrian Smith,,CHINA,ASIA,,
-现代地标,155_Shanghai_World_Financial_Center,1,31.2344N,121.5078E,,William Pedersen,,CHINA,ASIA,,
-现代地标,156_TAIPEI_101,1,25.0338N,121.5646E,,William Pedersen,,CHINA,ASIA,,
-现代地标,157_The_Canton_Tower,1,,,,"Mark Hemel, Barbara Kuit",,CHINA,ASIA,,
-现代地标,158_Oriental_Pearl_TV_Tower,1,31.2397N,121.4998E,,"Jia Huan Cheng, Zhang Xiulin, Lin Benlin",,CHINA,ASIA,,
-东方历史地标,180_Angkor_Wat_,1,13.4125N,103.8670E,,King Suryavarman II,,Cambodia,ASIA,,
-西方历史地标,182_Great_Sphinx_of_Giza,1,29.9753N,31.1376E,,Khafre,,Egypt,AFRICA,,
-西方历史地标,183_Acropolis_of_Athens,1,37.9715N,23.7257E,,xxx,,Greece,EUROPE,,
-西方历史地标,184_Machu_Picchu,1,13.1631S,72.5450W,,Hiram Bingham,,Peru,SOUTH AMERICA,,
-西方历史地标,186_Moai,1,27.1000S,109.8500W,,xxx,,Chile,SOUTH AMERICA,,
-西方历史地标,190_Pyramid,1,29.9773N,31.1325E,,xxx,,Egypt,AFRICA,,
-西方历史地标,191_Chichen_Itza,1,20.6843N,88.5678W,,xxx,,MEXICO,NORTH AMERICA,,
-西方历史地标,193_Hungarian_Parliament_Building,1,47.5071N,19.0457E,,Imre Steindl,,Hungary,EUROPE,,
-西方历史地标,196_Sultan_Ahmed_Mosque,1,41.0054N,28.9768E,,Sedefkar Mehmed Agha,,Turkey,EUROPE,,
-现代主义大师,197_Louvre_Pyramid,1,48.8610N,2.3359E,,I.M.Pei,,FRANCE,EUROPE,,
-现代主义大师,004_Centre_Pompidou_,,48.8606N,2.3522E,,Piano & Rogers,,FRANCE,EUROPE,,https://www.cgtrader.com/3d-models?keywords=Centre+Pompidou
-现代主义大师,008_La_Maison_de_Verre,,,,,"Pierre Chareau, Bernard Bijovet",,FRANCE,EUROPE,,
-现代地标,011_Berliner_Philhamonie,,52.5100N,13.3697E,,"Hans Scharoun, Edgar Wisniewski",,GERMANY,EUROPE,,
-现代主义大师,014_The_Woodland_Cemetery,,39.7425N,84.1783W,,Sigurd Lewerentz,,SWEDEN,EUROPE,,
-现代主义大师,016_Solomon_R.Guggenheim_Museum,,40.7830N,73.9590W,,Frank Lloyd Wright,,US,NORTH AMERICA,,
-现代主义大师,025_Postsparkasse,,,,,Otto Wagner,,AUSTRIA,EUROPE,,
-现代主义大师,028_Rudolph_Hall_(Yale_Art_and_Architecture_Building),,41.3123°N, 72.924°W,,Paul Rudolph,,US,NORTH AMERICA,,
-现代主义大师,031_Frederick_C._Robie_House,,41.7898N,87.5959W,,Frank Lloyd Wright,,US,NORTH AMERICA,,
-现代主义大师,032_Schindler_House,,34.0865N,118.3723W,,Rudolph Schindler,,US,NORTH AMERICA,,
-现代主义大师,"038_The_Assembly,Chandigarh",,30.7608N,76.8033E,,Le Corbusier,,INDIA,ASIA,,
-现代主义大师,040_National_Olympic_Gymnasium,,35.6779N,139.7145E,,Kenzo Tange,,JAPAN,ASIA,,
-现代主义大师,041_Sendai_Mediatheque,,38.2654N,140.8657E,,"Toyo Ito, Mutsurō Sasaki",,JAPAN,ASIA,,
-现代主义大师,044_Diamond_Ranch_High_School,,34.0218N,117.7785W,,Thom Mayne,,US,NORTH AMERICA,,
-现代主义大师,046_Ford_Foundation_Headquarters,,40.7498N,73.9712W,,Roche-Dinkeloo,,US,NORTH AMERICA,,
-现代主义大师,056_The_Beinecke_Rare_Book_&_Manuscript_Library,,,,,Gordon Bunshaft,,US,NORTH AMERICA,,
-现代主义大师,058_Brion_Family_Tomb,,,,,Carlo Scarpa,,ITALY,EUROPE,,
-现代主义大师,060_Neue_Staatsgalerie,,,,,"James Stirling, Michael Wilford and Associates",,GERMANY,EUROPE,,
-现代主义大师,061_National_Museum_of_Roman_Art,,,,,José Rafael Moneo Vallés,,SPAIN,EUROPE,,
-现代主义大师,069_Hillside_Terrace_ComplexI-V,,,,,Fumihiko Maki,,JAPAN,ASIA,,
-现代主义大师,071_New_National_Gallery,,,,,Mies Van der Rohe,,GERMANY,EUROPE,,
-现代主义大师,072_Castelvecchio_Museum,,45.4397N,10.9878E,,Carlo Scarpa,,ITALY,EUROPE,,
-现代主义大师,073_Piscinas_de_Marés,,41.1928N,8.7075W,,Álvaro Siza,,PORTUGAL,EUROPE,,
-现代主义大师,074_Michaelerplatz_House_(Looshaus),,,,,Adolf Loos,,AUSTRIA,EUROPE,,
-现代主义大师,075_Rusakov_Workers'_Club,,55.7912N,37.6875E,,Konstantin Melnikov,,US,NORTH AMERICA,,
-现代主义大师,078_The_Breuer_Building_(Whitney_Museum_of_American_Art),,,,,"Marcel Breuer, Renzo Piano",,US,NORTH AMERICA,,
-现代主义大师,079_Rooftop_Remodeling_Falkestrasse,,,,,COOP HIMMELB(L)AU,,AUSTRIA,EUROPE,,
-现代主义大师,080_Larkin_Company_Administration_Building,,,,,Frank Lloyd Wright ,,US,NORTH AMERICA,,
-现代主义大师,081_Fiat_Works,,,,,Giacomo Matté-Trucco,,ITALY,EUROPE,,
-现代主义大师,083_Van_Nelle_Factory,,51.9231N,4.4340E,,"Leendert van der Vlugt, Johannes Brinkman",,NETHERLANDS,EUROPE,,
-现代主义大师,085_Querini_Stampalia_Renovation,,,,,Carlo Scarpa,,ITALY,EUROPE,,
-现代主义大师,090_Turin_Exhibition_Hall,,45.0190N,7.6676E,,Massimiliano Fuksas,,ITALY,EUROPE,,
-现代主义大师,"091_Municipal_Orphanage,Amsterdam",,,,,Aldo van Eyck,,NETHERLANDS,EUROPE,,
-现代主义大师,093_Free_University_of_Berlin,,52.4543N,13.2935E,,"Candilis, Josic, Woods and Schiedhelm",,GERMANY,EUROPE,,
-现代主义大师,094_Bagsverd_Church,,,,,Jørn Utzon,,DENMARK,EUROPE,,
-现代主义大师,097_Gallaratese_Il_Apartments,,,,,Aldo Rossi & Carlo Aymonino,,ITALY,EUROPE,,
-现代主义大师,100_Yokohama_International_Port_Terminal,,,,,Farshid Moussavi and Alejandro Zaera-Polo,,JAPAN,ASIA,,
-西方历史地标,104_Pantheon_,,41.8986N,12.4769E,,"Jacques-Germain Soufflot, Jean-Baptiste Rondelet",,ITALY,EUROPE,,
-西方历史地标,105_Buckingham_Palace,,51.5014N,0.1419W,,"John Nash, William Winde, Thomas Cubitt, Aston Webb, Edward Blore",,ENGLAND,EUROPE,,
-西方历史地标,106_Hagia_Sophia,,41.0086N,28.9802E,,"Isidore of Miletus, Anthemius of Tralles",,Turkey,EUROPE,,
-现代主义大师,114_The_Cathedral_Church_of_Saint_Paul,,42.3558N,71.0622W,,Le Corbusier,,SWITZERLAND,EUROPE,,
-现代主义大师,132_Utalitarian_Church,,,,,Frank Lloyd Wright,,US,NORTH AMERICA,,
-现代主义大师,148_CITIC_Tower,,22.2807N,114.1673E,,"hejingtang，Kohn Pedersen Fox, Farrells",,CHINA,ASIA,,
-现代地标/现代主义大师,149_Bird_Nest,2,39.9929N,116.3965E,,Herzog and de Meuron,,CHINA,ASIA,,
-现代主义大师,151_象山校區（水岸山居）,,,,,王澍,,CHINA,ASIA,,
-现代主义大师,152_象山校區（其他）,,,,,王澍,,CHINA,ASIA,,
-现代主义大师,153_Himalayas_Center_,,31.2102N,121.5620E,,Arata Isozaki,,CHINA,ASIA,,
-现代主义大师,159_Harbin_Grand_Theatre,,45.8065N,126.5777E,,Ma Yansong,,CHINA,ASIA,,
-东方历史地标,160_天壇,,,,,mmm,,CHINA,ASIA,,
-东方历史地标,161_太和殿,,,,,mmm,,CHINA,ASIA,,
-西方历史地标,162_Eiffel_Tower,,,,,"Stephen Sauvestre, Maurice Koechlin, Émile Nouguier",,FRANCE,EUROPE,,
-东方历史地标,163_懸空寺,,,,,mmm,,CHINA,ASIA,,
-东方历史地标,164_嚴島神社,,,,,mmm,,JAPAN,ASIA,,
-东方历史地标,165_清水寺,,,,,mmm,,JAPAN,ASIA,,
-西方历史地标,166_凱旋門,,,,,mmm,,FRANCE,EUROPE,,
-东方历史地标,167_東大寺,,,,,mmm,,JAPAN,ASIA,,
-西方历史地标,168_Big_Ben,,51.5007N,0.1246W,,"Augustus Pugin, Charles Barry",,ENGLAND,EUROPE,,
-西方历史地标,170_Saint_Basil's_Cathedral,,55.7525N,37.6231E,,"Postnik Yakovlev, Ivan Barma",,RUSSIA,ASIA,,
-西方历史地标,171_Notre_Dame_de_Paris,,48.8530N,2.3499E,,Maurice de Sully,,FRANCE,EUROPE,,
-现代地标,201_Merlion_Singapore,,1.2868N,103.8545E,,Alec Fraser-Brunner,,Singapore,ASIA,,
-西方历史地标,203_Valley_of_the_Kings,,25.7402N,32.6014E,,xxx,,Egypt,AFRICA,,
-现代地标,204_Kwame_Nkrumah_Mausoleum,,5.5450N,0.2031W,,Don Arthur,,Ghana,AFRICA,,
-西方历史地标,209_Hassan_II_Mosque,,33.6085N,7.6328W,,Michel Pinseau,,Morocco,AFRICA,,
-现代地标,211_Memorial_du_Martyr,,36.7456N,3.0698E,,"Bachir Yelles, Marian Konieczny",,Algeria,AFRICA,,
-西方历史地标,212_Basilique_Sainte,,48.9355N,2.3598E,,Louis-Napoléon Audet,,Congo,AFRICA,,
-,217_The_Curutchet_House,,34.9114S,57.9418W,,Le Corbusier,,Argentina,SOUTH AMERICA,,
-现代地标,218_Fogo_Island_Inn,,49.7304N,54.1782W,,Todd Saunders,,CANADA,NORTH AMERICA,,
-现代地标,219_CN_Tower,,43.6426N,79.3871W,,John Andrews,,CANADA,NORTH AMERICA,,
-现代地标,220_Parliament_Buildings,,54.6040N,5.8328W,,Francis Rattenbury,,CANADA,NORTH AMERICA,,
-现代地标,221_Fairmont_Le_Chateau_Frontenac,,46.8120N,71.2052W,,Bruce Price,,CANADA,NORTH AMERICA,,
-,223_Koshino_House,,34.7740N,135.2851E,,Tadao Ando,,Japan,ASIA,,
-,224_The Church of the Light ,,34.8185N,135.5370E,,Tadao Ando,,Japan,ASIA,,
-,225_Ito_House,,41.2967S,174.7763E,,Tadao Ando,,Japan,ASIA,,
-,226_Australian_War_Memorial,,35.2811S,149.1484E,,"Emil Sodersten, John Crust",,AUSTRALIA,AUSTRALIA,,
-,227_Church_of_Water,,43.0637N,142.6263E,,Tadao Ando,,Japan,ASIA,,
-,228_Takahashi_City_Nariwa_Museum,,,,,Tadao Ando,,Japan,ASIA,,
-,229_Parliament_House,,35.3070S,149.1250E,,"Edwin Lutyens, Herbert Baker",,AUSTRALIA,AUSTRALIA,,
-,230_Modern_Art_Museum_of_Fort_Worth,,32.7492N,97.3633W,,Tadao Ando,,US,NORTH AMERICA,,
-,231_Sainte_Marie_de_La_Tourette,,45.8194N,4.6225E,,Le Corbusier,,France,EUROPE,,
-,232_Palais_des_Filateurs,,,,,Le Corbusier,,India,ASIA,,
+architecture,architect,year,city,country,continent,latitude,longitude
+Villa_Savoye,Le Corbusier,1931,Poissy,France,Europe,48.92457252,2.028344771
+Chapelle_Notre-Dame_du_Haut,Le Corbusier,1955,Ronchamp,France,Europe,47.7046385,6.620936017
+Barcelona_Pavilion,Ludwig Mies van der Rohe,1929,Barcelona,Spain,Europe,41.37076206,2.150194984
+Centre_Pompidou,"Richard Rogers, Renzo Piano",1977,Paris,France,Europe,48.86074786,2.352244998
+S.C.Johnson_&_Son_Headquarters,Frank Lloyd Wright,1939,"Racine, WI",United States,North America,42.72910708,-87.79109078
+Farnsworth_House,Ludwig Mies van der Rohe,1951,"Kendall County, IL",United States,North America,41.63523606,-88.53552287
+Salk_Institute,Louis I. Kahn,1960,"La Jolla, CA",United States,North America,32.88762573,-117.2452891
+La_Maison_de_Verre,"Pierre Chareau, Bernard Bijovet",1932,Paris,France,Europe,48.85390431,2.328422798
+Couvent_Sainte-Marie_de_La_Tourette,Le Corbusier,1957,Éveux,France,Europe,45.81955408,4.62275269
+TWA_Flight_Center,Eero Saarinen,1962,"New York City, NY",United States,North America,40.64590291,-73.7776757
+Berliner_Philhamonie,"Hans Scharoun, Edgar Wisniewski",1882,Berlin,Germany,Europe,52.51020818,13.36945696
+Guggenheim_Museum_Bilbao,Frank Gehry,1997,"Bilbo, Bizkaia",Spain,Europe,43.26885867,-2.933968887
+Parc_de_la_Villette,Bernard Tschumi ,1983,"Jean Jaurès, Paris",France,Europe,48.8939829,2.390292185
+The_Woodland_Cemetery,Sigurd Lewerentz,1940,"Sockenvägen, Stockholm",Sweden,Europe,59.27135651,18.10268633
+Seagram_Building,"Ludwig Mies van der Rohe, Philip Johnson",1958,"New York City, NY",United States,North America,40.75845847,-73.97189919
+Solomon_R.Guggenheim_Museum,Frank Lloyd Wright,1939,"New York City, NY",United States,North America,40.78318267,-73.95891696
+The_Eames_House,Charles Eames，Ray Eames,1949,"Los Angeles, CA",United States,North America,34.03626738,-118.5212887
+Leicester_University_Engineering_Building,"James Gowan, James Stirling",1959,Leicester,United Kingdom,Europe,52.62028545,-1.123770446
+Casa_del_Fascio,Giuseppe Terragni,1936,Piazza del Popolo,Italy,Europe,45.81249979,9.085946354
+Unité_d'Habitation,Le Corbusier,1952,Marseille,France,Europe,43.26157076,5.396746213
+Habitat'67,Moshe Safdie,1967,"Montréal, QC",Canada,North America,45.50004214,-73.54368052
+Kimbell_Art_Museum,Louis I. Kahn,1936,"Fort Worth, TX",United States,North America,32.74882134,-97.36494226
+Schroderhuis,Gerrit Rietveld,1924,3583 EP Utrecht,Netherlands,Europe,52.08545343,5.147544569
+Nakagin_Capsule_Tower,Kisho Kurokawa,1972,"Ginza, Chuo City, Tokyo",Japan,Asia,35.66583616,139.7635681
+Postsparkasse,Otto Wagner,1905,Wien,Austria,Europe,48.21011037,16.38118244
+Casa_Malaparte,Adalberto Libera,1937,Metropolitan City of Naples,Italy,Europe,40.54717339,14.25910578
+Sydney_Opera_House,Jørn Utzon,1973,Sydney NSW 2000,Australia,Australia,-33.85657946,151.215286
+Rudolph_Hall_(Yale_Art_and_Architecture_Building),Paul Rudolph,1963,"New Haven, CT",United States,North America,41.30895576,-72.93194388
+Phillips_Exeter_Academy_Library,Louis I. Kahn,1972,"Exeter, NH",United States,North America,42.98117463,-70.95179414
+AEG_Turbine_Factory,Peter Behrens,1909,Berlin,Germany,Europe,52.52815549,13.32457038
+Frederick_C._Robie_House,Frank Lloyd Wright,1909,"Chicago, IL",United States,North America,41.78991377,-87.59596596
+Schindler_House,Rudolph Schindler,1922,"West Hollywood, CA",United States,North America,34.08668395,-118.3721164
+National_Congress_of_Brazil,Oscar Niemeyer,1826,"Poderes, Brasília",United States,North America,-15.7994538,-47.8641629
+Bauhaus_Dessau,Walter Gropius,1919,Dessau-Roßlau,Germany,Europe,51.83903919,12.22729657
+Hongkong_&_Shanghai_Bank_Headquarters（HSBC）,Foster and Partners,1983,"Central, Hong Kong",China,Asia,22.28042074,114.1594401
+Glasgow_School_of_Art,Charles Rennie Mackintosh,1845,Glasgow G3 6RQ,United Kingdom,Europe,55.86632157,-4.263779132
+Villa_Mairea,"Alvar Aalto, Aino Aalto",1939,"Pikkukoivukuja, Noormarkku",Finland,Europe,61.59749494,21.87456523
+The_Assembly,Le Corbusier,1962,Chandigarh,India,Asia,30.76131547,76.80315194
+Stockholm_Public_Library,Gunnar Asplund,1928,Stockholm,Sweden,Europe,59.34360769,18.05511988
+Yoyogi_National_Olympic_Gymnasium,Kenzo Tange,1964,"Shibuya City, Tokyo",Japan,Asia,36.18290224,139.6646217
+Sendai_Mediatheque,"Toyo Ito, Mutsurō Sasaki",2000,"Aoba Ward, Sendai",Japan,Asia,38.265559,140.8656579
+Einstein_Tower,Erich Mendelsohn,1921,Potsdam,Germany,Europe,52.37906246,13.06382641
+Lever_House,"Gordon Bunshaft, Natalie de Blois",1952,"New York City, NY",United States,North America,52.49756334,13.42836421
+Diamond_Ranch_High_School,Thom Mayne,1997,"Pomona, CA",United States,North America,34.02206329,-117.7784425
+Glass_House,Philip Johnson,1949,"New Canaan, CT",United States,North America,41.14665202,-73.49682972
+Ford_Foundation_Headquarters,Roche-Dinkeloo,1963,"New York City, NY",United States,North America,40.74999847,-73.97119459
+Olympic_Stadium_Munich,"Frei Otto, Günter Behnisch, Fritz Auer, Carlo Weber, Hermann Peltz",1972,München,Germany,Europe,48.17331055,11.54664124
+Gehry_House,Frank Gehry,1991,"Santa Monica, CA",United States,North America,34.03543883,-118.4846767
+lgualada_Cemetery,Enric Miralles,1984,"Igualada, Barcelona",United States,North America,41.59244923,1.637269856
+Crown_Hall,Ludwig Mies van der Rohe,1956,"Chicago, IL",United States,North America,41.83337456,-87.62726427
+Y_Vanna_Venturi_House,Robert Venturi,1964,"Philadelphia, PA",United States,North America,40.07087307,-75.20804729
+Lovell_Health_House,Richard Neutra,1929,"Los Angeles, CA",United States,North America,34.1184047,-118.2877934
+Tugendhat_House,Ludwig Mies van der Rohe,1930,"Černopolní, Brno",Czech Republic,Europe,49.20733394,16.61613786
+Baker_Hall_MIT,Alvar Aalto,1948,"Cambridge, MA",United States,North America,42.35691474,-71.09567274
+Casa_Luis_Barragán,Luis Barragán,1947,"Miguel Hidalgo district, Mexico City",Mexico,North America,19.41142948,-99.19233234
+The_Beinecke_Rare_Book_&_Manuscript_Library,Gordon Bunshaft,1963,"New Haven, CT",United States,North America,41.31165676,-72.92736311
+Museu_de_Arte_de_Sāo_Paulo,Lina Bo Bardi,1947,São Paulo,United States,North America,-23.56150249,-46.65594628
+Brion_Family_Tomb,Carlo Scarpa,1978,"Via Brioni, Altivole TV",Italy,Europe,45.75129969,11.91374368
+Bangladesh_National_Assembly_Building,"Louis Kahn, Muzharul Islam",1982,Dhaka,Bangladesh,ASIA,23.76267219,90.37855964
+Neue_Staatsgalerie,"James Stirling, Michael Wilford and Associates",1984,Stuttgart,Germany,Europe,48.7802175,9.186570569
+National_Museum_of_Roman_Art,José Rafael Moneo Vallés,1986,"Mérida, Badajoz",Spain,Europe,38.91713838,-6.339441485
+Maison_à_Bordeaux,Rem Koolhaas,1998,Floirac,France,Europe,44.82536131,-0.5171067871
+Casa_Milà,Antoni Gaudí,1912,Barcelona,Spain,Europe,41.39547303,2.161902398
+Säynä¤tsalo_Town_Hall,Alvar Aalto,1949,Säynätsalo,Finland,Europe,62.14035999,25.76931878
+Lloyd's_of_London,Richard Rogers and Partners,1978,London,United Kingdom,Europe,51.52205795,-0.08458995184
+Institut_du_Monde_Arabe,"Gilbert Lèzenes, Pierre Soria",1980,Paris,France,Europe,48.84910218,2.357145468
+Parc_de_la_Villette,Bernard Tschumi,1985,Paris,France,Europe,48.89403228,2.390270727
+Jewish_Museum_Berlin,Daniel Libeskind,2001,Berlin,Germany,Europe,52.50250088,13.39535034
+Hillside_Terrace_ComplexI-V,Fumihiko Maki,1992,"Shibuya City, Tokyo ",Japan,Asia,35.64760248,139.7014638
+Smith_House,Richard Meier,1967,"Darien, CT",United States,North America,41.06209893,-73.45531044
+New_National_Gallery,Mies Van der Rohe,1968,Berlin,Germany,Europe,52.50709906,13.36759327
+Castelvecchio_Museum,Carlo Scarpa,1356,Verona VR,Italy,Europe,45.43993325,10.98780696
+Piscinas_de_Marés,Álvaro Siza,1966,Leça da Palmeira,Portugal,Europe,41.19297154,-8.707489273
+Michaelerplatz_House_(Looshaus),Adolf Loos,1911,1010 Wien,Austria,Europe,48.20847703,16.3667432
+Rusakov_Workers'_Club,Konstantin Melnikov,1928,Moscow,United States,North America,55.79139497,37.68751536
+Mill_Owners'Association_Building,Le Corbusier,1951,Gujarat,India,ASIA,23.03267881,72.5709023
+Stahl_House,Pierre Koenig,1960,"West Hollywood, CA",United States,North America,34.10078192,-118.3703326
+The_Breuer_Building_(Whitney_Museum_of_American_Art),"Marcel Breuer, Renzo Piano",1981,"New York City, NY",United States,North America,40.73980716,-74.0088629
+Rooftop_Remodeling_Falkestrasse,COOP HIMMELB(L)AU,1988,1010 Wien,Austria,Europe,48.20858793,16.38082626
+Larkin_Company_Administration_Building,Frank Lloyd Wright ,1903,"Buffalo, NY",United States,North America,42.87672079,-78.8521345
+Fiat_Works (Lingotto Parcheggio),Giacomo Matté-Trucco,1923,Torino TO,Italy,Europe,45.03291121,7.662848688
+Villa_Müller,Adolf Loos,1930,Prague,Czech Republic,Europe,50.09262009,14.37839788
+Van_Nelle_Factory,"Leendert van der Vlugt, Johannes Brinkman",1931,Rotterdam,Netherlands,Europe,51.92327156,4.434134958
+Dymaxion_House,Buckminster Fuller,1933,"Dearborn, MI",United States,North America,42.30367346,-83.23417372
+Querini_Stampalia_Renovation,Carlo Scarpa,1949,Venezia VE,Italy,Europe,45.4365945,12.34113714
+House_VI,Peter Eisenman,1975,"Cornwall, CT",United States,North America,41.83290684,-73.32142354
+Beurs_van_Berlage,Beurs van Berlage,1903,Amsterdam,Netherlands,Europe,52.37525212,4.896278587
+Gamble_House,"Henry Mather Greene, Charles Sumner Greene",1908,"Pasadena, CA",United States,North America,34.15182375,-118.1609311
+Lovell_Beach_House,Rudolph Schindler,1926,"Newport Beach, CA",United States,North America,33.60617316,-117.9176351
+Turin_Exhibition_Hall,Massimiliano Fuksas,1949,Torino TO,Italy,Europe,45.07742872,7.682805699
+"Municipal_Orphanage,Amsterdam",Aldo van Eyck,1960,Amsterdam,Netherlands,Europe,52.34097283,4.855760827
+Carpenter_Center_for_the_Visual_Arts,"Josep Lluís Sert, Le Corbusier",1963,"Cambridge, MA",United States,North America,42.3738752,-71.11450009
+Free_University_of_Berlin,"Candilis, Josic, Woods and Schiedhelm",1948,Berlin,Germany,Europe,52.45446832,13.29346607
+Bagsverd_Church,Jørn Utzon,1976,Bagsværd,Denmark,Europe,55.76192879,12.4439722
+SESC_Pompéia,Lina Bo Bardi,1986,São Paulo,Brazil,South America,-23.52589467,-46.68332257
+Heidi_Weber_House,Le Corbusier,1967,Zürich,Switzerland,Europe,47.3562638,8.550781966
+Gallaratese_Il_Apartments,Aldo Rossi & Carlo Aymonino,1972,Milano,Italy,Europe,45.4992342,9.100900195
+Centraal_Beheer_Building,Herman Hertzberger,1972,NB Apeldoorn,Netherlands,Europe,52.20969992,5.960990714
+Vitra_Fire_Station,Zaha Hadid,1993,Weil am Rhein,Germany,Europe,47.60049679,7.614858602
+Yokohama_International_Port_Terminal,Farshid Moussavi and Alejandro Zaera-Polo,2002,"Kanagawa, Yokohama",Japan,Asia,35.45125933,139.6473941
+Leaning_Tower_of_Pisa,"Diotisalvi, Guglielmo",1372,"Piazza del Duomo, Pisa PI",Italy,Europe,43.72316133,10.39668283
+Taj_Mahal,Ustad Ahmad Lahouri,1648,Agra,India,Asia,27.17535476,78.04207782
+Colosseum,unknown,80 AD,Roma RM,Italy,Europe,41.8904418,12.4922309
+Pantheon,unknown,125 AD,Roma RM,Italy,Europe,41.89915205,12.47691274
+Buckingham_Palace,"John Nash, William Winde, Thomas Cubitt, Aston Webb, Edward Blore",1705,London,United Kingdom,Europe,51.50147752,-0.1418470863
+Hagia_Sophia,"Isidore of Miletus, Anthemius of Tralles",537 AD,İstanbul,Turkey,Europe,41.00876109,28.98026083
+Space_Needle,"John “Jack” Graham, Jr. fresh",1962,"Seattle, WA",United States,Europe,47.62067984,-122.3493418
+La_Sagrada_Familia,Antoni Gaudí,2010,Barcelona,Spain,Europe,41.40384716,2.174377256
+Cathedral_of_Brasilia,Oscar Niemeyer ,1970,Brasília,Brazil,South America,-15.79813542,-47.87557159
+The_White_House,James Hoban,1792,"Washington, DC",United States,North America,38.89791008,-77.03658345
+Empire_State_Building,"William F. Lamb, Arthur Loomis Harmon, Yasuo Matsui, Gregory Johnson",1930,"New York, NY",United States,North America,40.74861117,-73.98569659
+Lloyd's_Building,"Richard Rogers, Mike Davies, Ivan Harbour",1978,London,United Kingdom,Europe,51.5128575,-0.08228543052
+Petronas_Twin_Towers,César Pelli,1993,Kuala Lumpur,Malaysia,Asia,3.158227711,101.7117923
+Potala_Palace,"5th Dalai Lama, Songtsen Gampo",1649,Tibet,China,Asia,29.65575524,91.11852555
+The_Moscow_Kremlin,"Marcus Ruffus, Petrus Antonius Solarius",1495,Moscow,Russia,Europe,55.7521863,37.6174994
+Stonehenge,unknown,Bronze Age,Salisbury SP4 7DE,United Kingdom,Europe,51.17968152,-1.826199222
+Cologne_Cathedral,"Master Gerhard, Ernst Friedrich Zwirner",1322,Köln,Germany,Europe,50.94142035,6.958259941
+Dome_of_the_Rock,"Raja ibn Haywa, Yazid Ibn Salam",1023,Jerusalem,Israel,Asia,31.77817277,35.23545992
+Chrysler_Building,William Van Alen,1930,"New York City, NY",United States,North America,40.75175895,-73.97544836
+Burj_Khalifa,"Adrian Smith, George J. Efstathiou, Marshall Strabala",2010,Dubai,United Arab Emirates,Asia,25.19742027,55.27440858
+Maison_Citröhan,Le Corbusier,1927,Paris,Germany,Europe,48.85200923,2.2654375
+Villa_Mairea,Alvar Aalto,1939,Noormarkku,Finland,Europe,61.59753577,21.8744043
+Falling_Water,Frank Lloyd Wright,1964,"Mill Run, PA",United States,North America,39.90644437,-79.46780912
+Utalitarian_Church,Frank Lloyd Wright,1951,"Chicago, IL",United States,North America,43.07573635,-89.43541336
+Indian_Institute_of_Management_A,Louis I. Kahn,1974,"Ahmedabad, Gujarat",India,Asia,23.03321387,72.53282394
+Nationa__Assembly_in_Dhaka,Louis I. Kahn,1982,Dhaka,Bangladesh,Asia,23.76268201,90.37852745
+The_Trenton_Bath,Louis I. Kahn,1955,"Ewing Township, NJ",United States,North America,40.25984557,-74.79879376
+Philip_Exter_Library,Louis I. Kahn,1972,"Exeter, NH",United States,North America,42.98126706,-70.95172262
+Fisher_House,Louis I. Kahn,1964,"Hatboro, PA",United States,North America,40.1670931,-75.1083966
+Margaret_Esherick_House,Louis I. Kahn,1959,"Philadelphia, PA",United States,North America,40.11152395,-75.21060934
+Neue_Nationalgalerie,Ludwig Mies van der Rohe,1968,Berlin,Germany,Europe,52.50711865,13.36764691
+860-880_Lake_Shore_Drive,Ludwig Mies van der Rohe,1949,"Chicago, IL",United States,North America,41.89924899,-87.61884501
+Voya_Financial_20_Washington,Minoru Yamasaki and Associates,1965,"Minneapolis, MN",United States,North America,44.98247295,-93.2668441
+CITIC_Tower(China Zun),Kohn Pedersen Fox,2018,Beijing,China,Asia,39.91284102,116.4637365
+Beijing_National_Stadium,Herzog and de Meuron,2008,Beijing,China,Asia,39.99310747,116.3965005
+CCTV_Headquarters,"Rem Koolhaas (OMA), Ole Scheeren",2012,Beijing,China,Asia,39.91543143,116.4642097
+Jin_Mao_Tower,Adrian Smith,1999,Shanghai,China,Asia,31.23569182,121.5057491
+Himalayas_Center,Arata Isozaki,2012,Shanghai,China,Asia,31.21038378,121.5619361
+First_Unity_Temple,Frank Lloyd Wright,1908,"Oak Park, IL",United States,North America,41.88848405,-87.7966513
+Shanghai_World_Financial_Center,Kohn Pedersen Fox,2008,Shanghai,China,Asia,31.23464115,121.5078587
+TAIPEI_101,C.Y. Lee & Partners,2004,Taipei,Taiwan,Asia,25.03410543,121.5645883
+The_Canton_Tower,"Mark Hemel, Barbara Kuit",2010,Guangzhou,China,Asia,23.10807236,113.3404147
+Oriental_Pearl_TV_Tower,"Jia Huan Cheng, Zhang Xiulin, Lin Benlin",1994,Shanghai,China,Asia,31.23997325,121.4998411
+Harbin_Grand_Theatre,Ma Yansong,2015,Harbin,China,Asia,45.80669841,126.5776911
+Tiantan(Temple_of_Heaven),unknown,1420,Beijing,China,Asia,39.88143767,116.4191967
+Foridden_City,Ruan An,1420,Beijing,China,Asia,39.91713975,116.3906705
+Eiffel_Tower,"Stephen Sauvestre, Maurice Koechlin, Émile Nouguier",1889,Paris,France,Europe,48.85849714,2.294481298
+Hanging Temple,unknown,491 AD,"Hunyuan County, Datong",China,Asia,39.65949555,113.7120585
+Itsukushima Shrine,unknown,593 AD,"Miyajimacho, Hatsukaichi, Hiroshima",Japan,Asia,34.29610481,132.3198929
+Kiyomizu-dera,unknown,778 AD,"Higashiyama Ward, Kyoto",Japan,Asia,34.99500549,135.7849927
+Arc de Triomphe,"Jean Chalgrin, Jean-Arnaud Raymond",1836,Paris,France,Europe,48.87399632,2.295038227
+Tōdai-ji,Emperor Shōmu,728 AD,"Zoshicho, Nara",Japan,Asia,34.68915269,135.8398265
+Big_Ben,"Augustus Pugin, Charles Barry",1859,London,United Kingdom,Europe,51.50085608,-0.1245824863
+Weissenhofmuseum im Haus,Le Corbusier,1927,Stuttgart,,,48.80007549,9.1778249
+Saint_Basil's_Cathedral,"ostnik Yakovlev, Ivan Barma",1561,"Red Square, Moscow",Russia,Asia,55.7526376,37.62312971
+Notre_Dame_de_Paris,"Pierre de Montreuil, Jean-Baptiste-Antoine Lassus",1345,Paris,France,Europe,48.85315879,2.349955742
+San_Francisco_Art_Museum,Mario Botta,1935,"San Francisco, CA",United States,North America,37.78589624,-122.4010615
+Burj_Al_Arab,Tom Wright,1994,Dubai,Emirates,Asia,25.14134603,55.18524116
+Casa_Rotonda_Stabio,Mario Botta,1982,Stabio,Switzerland,Europe,45.85486743,8.93291271
+Church_of_God_the_Merciful_Father,Richard Meier,2003,Roma RM,Italy,Europe,41.88252905,12.58560587
+Chiesa_Seriate,Mario Botta,2004,Seriate BG,Italy,Europe,45.68001796,9.710181571
+Church_of_Santo_Volto,Mario Botta,2006,Torino TO,Italy,Europe,45.09342811,7.661422327
+Deutsches_Historisches_Museum,I.M.Pei,1987,Berlin,Germany,North America,52.51826287,13.39667095
+East_Building_National_Gallery_of_Art,I.M.Pei,1978,"Washington, DC",United States,North America,38.89142205,-77.01708529
+Angkor_Wat,King Suryavarman II,Early 12th Century,Krong Siem Reap,Cambodia,Asia,13.41267801,103.8669321
+Bank_of_China_Tower,I.M.Pei,1990,Hong Kong,China,Asia,22.27955248,114.1615038
+Great_Sphinx_of_Giza,unknown,2500 B.C,Giza Governorate,Egypt,Africa,29.97545456,31.13753521
+Acropolis_of_Athens,unknown,5th Century B.C,Athens,Greece,Europe,37.97172681,23.72584576
+Machu_Picchu,unknown,1450 AD,Andes Mountains,Peru,South America,-13.1629218,-72.54493072
+Green_Building_MIT,I.M.Pei,1964,"Cambridge, MA",United States,North America,42.3605149,-71.08926116
+Moai,unknown,1650 AD,"Easter Island, Valparaíso",Chile,South America,-24.29378103,-108.4515929
+Douglas_House,Richard Meier,1973,"Harbor Springs, MI",United States,North America,45.50138155,-85.09786573
+Porto_House（Casa_da_Musica）,Rem Koolhaas,2005,Porto,Portugal,Europe,41.15907484,-8.630642358
+Thorncrown_Chapel, E. Fay Jones,1980,"Eureka Springs, AR",United States,North America,36.41648866,-93.77267785
+Pyramid,unknown,2490 B.C,Giza Governorate,Egypt,Africa,30.09336595,31.15068133
+Chichen_Itza,unknown,900 AD,Yucatan,Mexico,North America,20.68441537,-88.56779333
+Hilversum_Town_Hall,Willem Marinus Dudok,1928,JE Hilversum,Neitherland,Europe,52.22919952,5.16919733
+Hungarian_Parliament_Building,Imre Steindl,1904,Budapest,Hungary,Europe,47.50735289,19.04565827
+Zollverein_School_of_Management_and_Design,SANAA,2003,Essen,Germany,Europe,51.48779499,7.044625085
+21st_Century_Museum_of_Contemporary_Art_Kanazawa,SANAA,2004,"Hirosaka, Kanazawa, Ishikawa",Japan,Europe,36.56104403,136.6585682
+Sultan_Ahmed_Mosque,Sedefkar Mehmed Agha,1916,İstanbul,Turkey,Europe,41.00553912,28.9768138
+Louvre_Pyramid,I.M.Pei,1989,Paris,France,Europe,48.86115465,2.335815383
+The_Therme_Vals,Peter Zumthor,1996,Vals Valley,Switzerland,Europe,46.62253687,9.181162602
+Saint_Benedict_Chapel,Peter Zumthor,1988,Sumvitg,Switzerland,Europe,46.73504236,8.939083471
+House_II,Peter Eisenman,1970,"Hardwick, VT",United States,North America,44.53229242,-72.399254
+Merlion_Singapore,Alec Fraser-Brunner,2002,Singapore,Singapore,Asia,1.286966848,103.854534
+Tadao_Ando_4x4,Tado Ando,2004,"Tarumi-ku, Kobe, Hyogo",Japan,Asia,34.64216332,135.0217681
+Valley_of_the_Kings,unknown,11th Century BC,Luxor Governorate,Egypt,Africa,25.74060855,32.60140057
+Kwame_Nkrumah_Mausoleum,Don Arthur,1992,Accra,Ghana,Africa,5.545194826,-0.203052545
+Nihonbashi_House,Tado Ando,1994,"Setagaya City, Tokyo",Japan,Asia,35.65544705,139.6639696
+Church_of_the_Light,Tado Ando,1989,"Kitakasugaoka, Ibaraki, Osaka",Japan,Asia,34.81869633,135.5371373
+Eychaner_Lee_House,Tado Ando,1997,"Takanawa, Shinagawa, Tokyo",Japan,Asia,41.92893982,-87.64528656
+Hassan_II_Mosque,Michel Pinseau,1993,"Bd de la Corniche, Casablanca",Morocco,Africa,33.6086959,-7.632799073
+Row_House_in_Sumiyoshi,Tadao Ando,1976,"Sumiyoshi Ward, Osaka",Japan,Asia,34.6111301,135.4922353
+Memorial_du_Martyr,"Bachir Yelles, Marian Konieczny",1982,"Chemin Omar Kechkar, El Madania",Algeria,Africa,36.74578783,3.069841871
+Basilique_Sainte,Louis-Napoléon Audet,2010,Brazzaville,Congo,Africa,-4.268294518,15.284135
+Weissenhof_Estate,Le Corbusier,1927,Stuttgart,Germany,Europe,48.80087055,9.177157314
+Villa_Stein_de_Monzie,Le Corbusier,1927,Vaucresson,France,Europe,48.84713967,2.177278715
+The_Curutchet_House,Le Corbusier,1955,Provincia de Buenos Aires,Argentina,South America,-34.91108944,-57.94183202
+Fogo_Island_Inn,Todd Saunders,2013,Joe Batt's Arm,Canada,North America,49.74562213,-54.18333864
+CN_Tower,John Andrews,1976,Toronto,Canada,North America,43.64276028,-79.38708899
+Legislative_Assembly_of_British_Columbia,Francis Rattenbury,1898,"Victoria, BC",Canada,North America,48.41990597,-123.3702154
+Fairmont_Le_Chateau_Frontenac,Bruce Price,1893,Québec,Canada,North America,46.81211862,-71.20520767
+Villa_Baizeau,Le Corbusier,1928,Tunis,Tunisia,Africa,36.85885224,10.33908562
+Koshino_House,Tadao Ando,1981,"Ashiya, Hyogo",Japan,Asia,34.77412285,135.2850476
+The_Church_of_the_Light ,Tadao Ando,1989,"Ibaraki, Osaka",Japan,Asia,34.81874037,135.5371695
+Toyo_Ito_White_U_House,Tadao Ando,1976,"Nakano-Ku, Tokyo",Japan,Asia,35.69517213,139.6756078
+Australian_War_Memorial,"Emil Sodersten, John Crust",1941,Treloar Cres,Australia,Australia,-35.28096907,149.1484112
+Church_of_Water,Tadao Ando,1988,"Tomamu, Shimukappu, Hokkaido",Japan,Asia,43.06395852,142.6262197
+Takahashi_City_Nariwa_Museum,Tadao Ando,1953,"Takahashi, Okayama",Japan,Asia,34.78113166,133.5366456
+Parliament_House,"Edwin Lutyens, Herbert Baker",1927,"New Delhi, Delhi ",India,Asia,28.61746211,77.20812691
+Modern_Art_Museum_of_Fort_Worth,Tadao Ando,2002,"Fort Worth, TX",United States,North America,32.7493788,-97.36327502
+Sainte_Marie_de_La_Tourette,Le Corbusier,1957,Rte de la Tourette,France,Europe,45.81948678,4.622709775
+Palais_des_Filateurs,Le Corbusier,1951,Ahmedabad,India,Asia,23.03274792,72.57089157
+Walsh_House,Glenn Murcutt,2005,Bingie NSW 2537,Australia,Australia,-35.9211482,150.1127334
+Magney_house,Glenn Murcutt,1984,Bingie NSW 2537,Australia,Australia,-36.01299543,150.1519512
+Walden7,"Ricardo Bofill, Anna Bofill Levi",1975,"Sant Just Desvern, Barcelona",Spain,Europe,41.38041958,2.067724211
+Lac_de_la_sourderie,Ricardo Bofill,1984,Montigny-le-Bretonneux,France,Europe,48.76696704,2.046286042
+Espaces_dAbraxas,Ricardo Bofill,1983,Paris,France,Europe,48.84010364,2.542285998
+Dancing_House,"Vlado Milunić, ‎Frank Gehry",1996,Prague,Czech Republic,Europe,50.07554768,14.41403922
+Gateway_Arch,Eero Saarinen,1963,"St. Louis, MO",United States,North America,38.62488376,-90.18474412
+Niterói_Contemporary_Art_Museum,Oscar Niemeyer,1996,"Niterói, Rio de Janeiro",Brazil,South America,-22.90739106,-43.12592065
+Lotus_Temple,Fariborz Sahba,1986,New Delhi,India,Asia,28.55368046,77.25883713
+Harvard_Gund_Hall,John Andrews,1972,"Cambridge, MA",United States,North America,42.37575221,-71.11365406
+MIT_Stata_Center,Frank Gehry,2004,"Cambridge, MA",United States,North America,42.36179974,-71.0906355
+Disney_Concert_Hall,Frank Gehry,2003,"Los Angeles, CA",United States,North America,34.05544433,-118.2498236
+Westminster_Abbey," Ptolemy Dean, George Gilbert Scott",1269,London,United Kingdom,Europe,51.49945501,-0.1272744931
+Dresden_Frauenkirche,George Bähr,2005,"Dresden, Saxony",Germany,Europe,51.05200152,13.74156451
+41_Cooper_Square,Morphosis (Thom Mayne),2009,"New York City, NY",United States,North America,40.72933364,-73.99030172
+Simmons_Hall,Steven Holl,2002,"Cambridge, MA",United States,North America,42.3575215,-71.10081436
+Milstein_Hall,"OMA (Shohei Shigematsu, Rem Koolhaas)",2011,"Ithaca, NY",United States,North America,42.45148745,-76.48254687
+Golden_Gate_Bridge,Joseph Baermann Strauss,1937,"San Francisco, California",United States,North America,37.82011503,-122.4782444
+Gwanghwamun,Unknown,1395,"Sejongno, Jongno-gu, Seoul",South Korea,Asia,37.57631541,126.9768009
+Himeji_Castle,Unknown,1333,"Himeji, Hyogo",Japan,Asia,34.83966912,134.6938618
+Borobudur,Gunadharma,825 AD,"Kabupaten Magelang, Jawa Tengah",Indonesia,Asia,-7.604199646,110.2035868
+Kinkaku-ji,Ashikaga Yoshimitsu,1955,"Kita Ward, Kyoto",Japan,Asia,35.03961594,135.7292002
