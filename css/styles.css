@@ -294,6 +294,7 @@ section {
     width: 100vw;
     height: 100vh;
     display: flex;
+    margin: 0;
     flex-direction: column;
     justify-content: center;
     padding: 50px var(--pageborder);
@@ -451,7 +452,7 @@ section {
     list-style-type: none;
     counter-reset: li;
     font-size: 1.3vw;
-    line-height: 30px;
+    line-height: 1.3vw;
 }
 
 .benefits > li {
