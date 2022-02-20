@@ -1,5 +1,5 @@
 var page_height = window.innerHeight;
-var stoppingpoint = ((document.getElementById("samples").offsetTop + page_height / 4) * 0.1).toFixed(0) - 100;
+var stoppingpoint = (document.getElementById("samples").offsetTop * 0.1).toFixed(0) - 100;
 
 var onScrollHandler = function () {
     updateImage();
